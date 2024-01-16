@@ -1,0 +1,74 @@
+
+.gpaCaculation{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 10px;
+  padding: 20px;
+}
+.gpaCaculation table{
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 20% !important;
+}
+
+.tableFullwidth{
+  width: 50% !important;
+}
+.gpaCaculation table th,
+.gpaCaculation table td,
+.gpaCaculation table tr{
+  border: 1px solid rgba(0, 175, 239, 0.20);
+  padding: 2px;
+}
+
+.gpaCaculation table thead tr th{
+  background-color:  rgba(0, 175, 239, 0.20) !important;
+  font-size: 14px;
+  text-align: center;
+}
+.gpaCaculation table tbody tr td{
+  font-size: 13px ;
+  text-align: center;
+} 
+.backnonetr{
+  background-color: #fff;
+}
+.gpaCaculation tr .backnone{
+  background-color: #fff;
+  text-align: center;
+}
+.gpaCaculation tr .backnone p{
+  background-color: #fff;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.gpaCaculation .DACKGROUNG{
+  background-color:  rgba(0, 175, 239, 0.20);
+}
+
+
+
+.readMore{
+  width: 97%;
+  background-color: #D0EAF5;height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+.readMore a{
+  text-decoration: none;
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.readMore a p,
+.readMore a span{
+  color: #000;
+}

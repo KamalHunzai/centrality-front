@@ -1,0 +1,284 @@
+.AppFlex{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.AppFlex img{
+height: 33px;
+width: 66px;
+}
+.AppFlex svg{
+    color: rgba(0, 126, 243, 1);
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.10);
+}
+.APPSIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.RecentlyApp-main h4{
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(8, 32, 54, 1);
+    margin-left: 15px;
+}
+  
+.ProgressFlex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.24);
+    border-radius: 3px;
+background: #FFF;
+box-shadow: 0px 6px 20px 0px rgba(54, 59, 71, 0.06);
+height: 46px;
+margin-top: 19px;
+padding: 10px;
+
+}
+.ProgressFlex img{
+    width: 66px;
+    height: 33px;
+}
+.ProgressFlex label{
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+.RecentlyApp-ProgressBars{
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+.ProgressBar{
+    width: 703px;
+    height: 11px !important;
+    margin-left: 14px;
+    background-color: rgba(238, 238, 238, 1) !important;
+}
+
+.ProgressBarWrapper {
+    position: relative;
+    width: 703px;
+  }
+  .progress-bar{
+    background-color: var(--bs-progress-bar-bg) !important;
+    height: 100% !important;
+  }
+  .ProgressBarTime {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    padding-left: 30px;
+    transform: translate(100%, 50%);
+    color: rgba(78, 85, 102, 1);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  @media (max-width:959px) {
+    .ProgressBar {
+        width: 680px;
+        margin-left: 14px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 20px;
+    }
+  }
+  @media (max-width:935px) {
+    .ProgressBar {
+        width: 650px;
+        margin-left: 14px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 60px;
+    }
+  }
+  @media  (max-width:894px) {
+    .ProgressBar {
+        width: 600px;
+        margin-left: 14px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 90px;
+    }
+  }
+  @media (max-width:861px) {
+    .ProgressBar {
+        width: 580px;
+        margin-left: 14px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 100px;
+    }
+  }
+  @media (max-width:844px) {
+    .ProgressBar {
+        width: 550px;
+        margin-left: 10px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 120px;
+    }
+  }
+  @media (max-width:832px) {
+    .ProgressBar {
+        width: 540px;
+        margin-left: 10px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 100px;
+    }
+    .ProgressFlex label{
+        margin-left: 20px;
+    }
+  }
+  @media (max-width:795px) {
+    .ProgressBar {
+        width: 500px;
+        margin-left: 10px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 80px;
+    }
+    .ProgressFlex label{
+        margin-left: 10px;
+    }
+  }
+  @media (max-width:726px) {
+    .ProgressBar {
+        width: 450px;
+        margin-left: 10px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 80px;
+    }
+    .ProgressFlex label{
+        margin-left: 10px;
+    }
+    .AppFlex {
+        gap: 4px;
+    }
+  }
+  @media (max-width:676px) {
+    .ProgressBar {
+        width: 400px;
+        margin-left: 10px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 80px;
+    }
+    .ProgressFlex label{
+        margin-left: 10px;
+    }
+    .AppFlex {
+        gap: 4px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media (max-width:624px) {
+    .ProgressBar {
+        width: 350px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 80px;
+    }
+    .ProgressFlex label{
+        margin-left: 6px;
+    }
+    .AppFlex {
+        gap: 2px;
+    }
+  }
+  @media (max-width:570px) {
+    .ProgressBar {
+        width: 300px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 90px;
+    }
+    .ProgressFlex label{
+        margin-left: 6px;
+    }
+    .AppFlex {
+        gap: 2px;
+    }
+  }
+  @media (max-width:530px) {
+    .ProgressBar {
+        width: 250px;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 90px;
+    }
+    .ProgressFlex label{
+        margin-left: 6px;
+    }
+    .AppFlex {
+        gap: 2px;
+    }
+  }
+  @media (max-width:482px) {
+    .ProgressBar {
+        width: 200px;
+        height: 8px !important;
+    }
+    
+    .ProgressBarTime {
+        margin-right: 90px;
+    }
+    .ProgressFlex label{
+        margin-left: 6px;
+    }
+    .AppFlex {
+        gap: 2px;
+    }
+    .AppFlex img {
+        height: 26px;
+        width: 50px;
+    }
+    .AppFlex svg {
+        font-size: 14px;
+    }
+    .ProgressFlex img {
+        width: 40px;
+        height: 26px;
+    }
+    .ProgressFlex label {
+        font-size: 12px;
+    }
+  }
+  @media (max-width:404px){
+    .ProgressBar {
+        width: 160px;
+        height: 8px !important;
+    }
+    .ProgressBarTime {
+        margin-right: 80px;
+    }
+    .RecentlyApp-ProgressBars {
+        margin-top: 40px;
+        padding: 0px 5px;
+    }
+    .APPSIcon {
+        padding: 5px;
+    }
+  }
+  

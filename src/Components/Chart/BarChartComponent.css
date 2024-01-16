@@ -1,0 +1,26 @@
+.Chart .chart-container .dropdowns{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+/* .Chart{
+    background-color:#E2ECF980 !important;
+} */
+
+.Chart .row .chart-container .dropdowns h3{
+    color: rgba(15, 23, 42, 1);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chart .row .chart-container .dropdowns h3 svg{
+    color: #94a3b8;
+    margin-left: 5px;
+    font-size: 18px;
+}
+/*  */

@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p {
+    margin-bottom: 0 !important;
+  }
+  
+  .Thumbnail-main {
+    /* padding: 21px; */
+    border-radius: 12px;
+    width: 100%;
+    height:180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+  }
+  .deleteProgressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .btnss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnss button{
+padding: 14px 0px;
+border-radius: 9px;
+background: var(--new, #00AFEF);
+border: none;
+outline: none;
+width: 200px;
+color: var(--Gray-White, #FFF);
+font-size: 16px;
+font-weight: 600;
+  }
+.Upload-progress{
+  width: 147px;
+height: 17px;
+margin: 0px 9px;
+}
+.deleteProgressbar .PlayPause-icon{
+  width: 24px;
+height: 24px;
+color: #00AFEF;
+margin: 0px 5px 0px 10px;
+}
+.deleteProgressbar img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.deleteProgressbar .Delete-icon{
+font-size: 25px;
+color: #CC522B;
+}
+  .UploadingFileName{
+    color: var(--Gray-700, #4E5566);
+font-size: 14px;
+font-weight: 400;
+margin: 0%;
+  }
+  .Thumbnail-div2 {
+    height: 180px;
+    width: 45%;
+    border-radius: 8px;
+    border: 2px dashed #6E7485;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #858D9D;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+  .Thumbnail-div2 button {
+    height: 40px;
+    width: 102px;
+    border-radius: 8px;
+    background-color: #F1CDCA33;
+    border: none;
+    color: #B67571;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+  }
+  
+  .Thumbnail-image {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .Thumbnail-labels{
+      font-weight: 400;
+      font-size: 14px;
+      cursor: pointer;
+      color: #363B47;
+      margin-top: 6px;
+  }
+  .Inputs-Addimage {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Inputs-Addimage-btn1{
+    height: 51px;
+    padding: 16px 18px;
+    border: 1px solid #6E7485;
+    border-radius: 4px;
+    outline: none;
+  }
+  .Inputs-Addimage-btn1::placeholder{
+    color: #434343;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Input-Addimage-btn2{
+    height: 108px;
+    padding: 5px;
+    border: 1px solid #6E7485;
+    border-radius: 4px;
+    outline: none;
+
+  }
+
+  .Expo-Image{
+    width: 20px;
+    height: 20px;
+  }
+  .AddFile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+  }

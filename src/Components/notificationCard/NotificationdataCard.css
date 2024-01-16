@@ -1,0 +1,63 @@
+.notification-main {
+  width: 355px;
+  height: 88px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 5px;
+  background-color: #fafbfc;
+  border-radius: 8px;
+  align-items: center;
+  padding: 5px;
+}
+.offcanvas.offcanvas-end{
+  border-radius: 16px;
+  padding: 10px 5px;
+}
+
+.IMG img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.notifaction-para P {
+  color: #94a3b8;
+  text-align: right;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.notification-new h6 {
+  color: #0f172a;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.notification-new p {
+  color: #94a3b8;
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 500;
+}
+
+.notification-child {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.notification-dot {
+height: 15px;
+width: 15px;
+}
+.notification-dot p{
+  font-size: 20px;
+color: var(--new, #00AFEF);
+}

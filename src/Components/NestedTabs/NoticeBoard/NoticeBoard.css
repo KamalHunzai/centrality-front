@@ -1,0 +1,42 @@
+.notis{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 22px;
+}
+.notis .accordion{
+    width: 96.5%;
+}
+.accordion-button{
+    background-color: #00AFEF !important;
+    color: white !important;
+    height:54px !important;
+    font-size:18.54px !important;
+    font-weight:600 !important;
+}
+.accordion-item:last-of-type{
+    width: 100%;
+}
+
+.accordion-body p{
+    color:#4e5566;
+    font-weight:400;
+    font-size:14.54px;
+    margin-left:20px;
+}
+
+.accordion-body span{
+    color: #00afef;
+    font-size: 29px;
+}
+
+.accordion-body .span-2{
+    float:right;
+    color: #4e5566;
+    font-weight: 400;
+    margin-top:15px;
+    font-size: 13.54px;
+}
+

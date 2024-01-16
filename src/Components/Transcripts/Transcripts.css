@@ -1,0 +1,389 @@
+.Transcripts-main {
+    margin: 0;
+    padding: 20px;
+}
+
+.Transcripts-Head {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 175, 239, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transcitps {
+    padding: 14px 20px;
+    background-color: white;
+}
+
+.Transcripts-First-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Transcripts-First-inputs label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.Transcripts-First-inputs input {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(67, 67, 67, 1);
+    margin-left: 10px;
+    outline: none;
+    width: 243px;
+}
+
+.Transcripts-First-inputs .First-input {
+    margin-left: 24px;
+}
+
+.school-Logo {
+    height: 79px;
+    width: 79px;
+    background-color: rgba(245, 244, 246, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 30px !important;
+}
+
+.Transcripts-First-inputs p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 175, 239, 1);
+    font-weight: 400;
+}
+
+.Transcripts-Second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 29px;
+    padding-right: 40px;
+}
+
+.Transcripts-Second label {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(29, 32, 38, 1);
+    margin-top: 20px;
+}
+
+.Transcripts-Second input {
+    margin-left: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(67, 67, 67, 1);
+    /* margin-left: 34px; */
+    outline: none;
+    margin: 10px 10px 0px 10px;
+
+}
+
+.Transcripts-Second {
+    padding: 0px !important;
+}
+
+.Transcripts-child1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.Inputts {
+    width: 40%;
+}
+
+.Transcripts-child1 .inputts {
+    width: 100%;
+}
+
+.Transcripts-child1 .inputt {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Transcripts-child1 .inputt input {
+    width: 55%;
+}
+
+.Transcripts-child1 .inputt .mainInput {
+    width: 50%;
+}
+
+.transcitps h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 175, 239, 1);
+    margin-top: 28px;
+}
+
+.TestScore_div label {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(29, 32, 38, 1);
+}
+
+.TestScore_div input {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(67, 67, 67, 1);
+    margin-left: 32px;
+    outline: none;
+}
+
+.TestScore_div {
+    display: flex;
+}
+
+.CourseTitle-main table {
+    padding: 20px;
+}
+
+.CourseTitle-main tr th {
+    background-color: rgba(0, 175, 239, 1);
+    color: white;
+    height: 60px;
+}
+
+.TranscriptCom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table h3 {
+    color: var(--new, #00AFEF);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.TranscriptCom table thead tr th {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.TranscriptCom table thead tr td {
+    color: var(--Gray-900, #1D2026);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.TranscriptCom table thead tr,
+.TranscriptCom table tbody tr {
+    background: var(--new, #00AFEF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.TranscriptCom table thead tr input,
+.TranscriptCom table tbody tr input {
+    margin-right: 5px;
+}
+
+.TranscriptCom table tbody tr {
+    background-color: transparent;
+}
+
+.TranscriptCom table tbody tr:hover {
+    background: #FAFBFC;
+}
+
+.TranscriptCom table thead tr hr {
+    height: 20px;
+    width: 1px;
+    background-color: black;
+}
+
+.TranscriptCom table thead {
+    border: none;
+    outline: none;
+}
+
+.TranscriptCom table {
+    border: none;
+    outline: none;
+}
+
+.indicatesCommunity {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 11px 0px !important;
+    background-color: #FFF;
+    padding: 24px 10px;
+}
+
+.indicatesCommunity p {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.indicatesCommunity .Issued {
+    display: flex;
+    margin-top: 20px;
+}
+
+.indicatesCommunity .Issued label {
+    color: var(--new, #00AFEF);
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 11px;
+    background-color: transparent;
+}
+
+.indicatesCommunity .Issued input {
+    border: none;
+    border-bottom: 1px solid rgba(67, 67, 67, 1);
+    color: #808080;
+    font-size: 11.67px;
+    font-weight: 400;
+    padding: 0px 4px;
+}
+
+.indicatesCommunity .Issued input:focus {
+    outline: none;
+}
+
+.indicatesCommunity .transcript {
+    text-align: start;
+    margin: 15px 0px !important;
+}
+
+.indicatesCommunity .Issued .input {
+    border-bottom: 1px solid rgba(67, 67, 67, 1);
+}
+
+.indicatesCommunity .Issued .input input {
+    border: none;
+}
+
+.btnNs {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: end;
+}
+
+.btnNs button {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #E5E5E5;
+    background: #FFF;
+    color: var(--new, #00AFEF);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btnNs button span {
+    color: #00AFEF;
+}
+
+.btnNs button:hover,
+.btnNs button:focus {
+    border-radius: 5px;
+    border: 0.5px solid #7FBDE4;
+    background: var(--new, #00AFEF);
+    color: #FFF;
+}
+
+.btnNs button:hover span,
+.btnNs button:focus span {
+    color: #FFF;
+}
+.Printbtns{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 0px;
+}
+.Printbtns button{
+    border: none;
+    outline: none;
+width: 144px;
+padding: 0px 24px;
+background-color:  #00AFEF !important;
+color: var(--Gray-White, #FFF) !important;
+font-size: 16px;
+font-weight: 600;
+}
+@media (max-width:470px) {
+    .school-Logo {
+        margin: 0px !important;
+    }
+
+    .indicatesCommunity {
+        margin: 11px 0px 11px 0px !important;
+    }
+}
+@media (max-width:403px) {
+    .TestScore_div .inputts{
+        width: 100% !important;
+    }
+    .TestScore_div .inputts .inputt{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .TestScore_div input {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    /* .indicatesCommunity .Issued input {
+       width: 100% !important;
+    } */
+    .indicatesCommunity .Issued {
+        width: 100%;
+    }
+    .btnNs button {
+        padding: 5px 10px;
+        font-size: 10px !important;
+    }
+}
+@media (max-width:359px) {
+    .indicatesCommunity .Issued label {
+        font-size: 12px;
+    }
+
+}

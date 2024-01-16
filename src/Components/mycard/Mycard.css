@@ -1,0 +1,79 @@
+.Mycard-main {
+    width: 23%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    gap: 20px;
+    padding: 10px;
+}
+
+.my-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff0f0;
+}
+.my-icon .icons{
+    width: 36px;
+    height: 36px;
+}
+
+.Mycard-main-child-2 {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Mycard-main-child-2 h2 {
+    color: #1d2026;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px !important;
+}
+
+.Mycard-main-child-2 p {
+    color: #4e5566;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px !important;
+
+}
+@media (max-width:631px) {
+    .my-icon {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .my-icon .svg{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .Mycard-main-child-2 {
+        gap: 1px;
+    }
+    .Mycard-main-child-2 h2 {
+        font-size: 12px !important;
+    }
+    .Mycard-main-child-2 p {
+        font-size: 10px !important;
+    }
+}
+@media (max-width:477px) {
+    .Mycard-main-child-2 h2 {
+        font-size: 8px !important;
+    }
+    .Mycard-main-child-2 p {
+        font-size: 6px !important;
+    }
+    .my-icon  {
+        width: 26px !important;
+        height: 26px !important;
+    }
+    .Mycard-main {
+        gap: 2px !important;
+    }
+}

@@ -1,0 +1,100 @@
+.custom-modal .modal-dialog {
+    right: 0;
+    margin-right: -140px;
+    margin-left: auto;
+    margin-top: 75px;
+    transform: translateX(100%);
+  }
+ .MyProfile_link .title{
+  color: rgba(111, 118, 126, 1);
+  font-weight: 600;
+  font-size: 15px;
+ }
+ .MyProfile_link {
+  text-decoration: none !important;
+ }
+  .custom-modal .modal-content {
+    padding: 10px;
+    width: 280px;
+    position: relative;
+    border: none;
+  }
+  .custom-modal .modal-content .modal-body{
+      padding: 12px 0%;
+      display: flex;
+      align-items: start;
+  }
+  
+  .custom-modal .modal-content .devSqur {
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    right: 23px;
+    top: -9px;
+  }
+  .custom-modal .modal-content ul {
+   margin: 0%;
+   padding: 0%;
+  }
+  .custom-modal .modal-content ul li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #6f767e;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+  }
+  .AccountSettig{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #6f767e;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .custom-modal .modal-content ul li svg {
+    width: 24px;
+    height: 24px;
+  }
+  .custom-modal .modal-content ul li:hover {
+    color: var(--Neutral-07, #1a1d1f);
+    background-color: #f4f4f4;
+  }
+  .upGrade {
+    margin:12px 0px;
+    border-top: 1px solid var(--Neutral-03, #EFEFEF);
+    border-bottom: 1px solid var(--Neutral-03, #EFEFEF);
+    border-radius: 0px !important;
+    padding: 24px 12px !important;
+    color: var(--Primary-01, var(--new, #00afef)) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+  }
+  .upGrade:hover{
+      background-color:transparent !important;
+  }
+  @media (max-width:575px) {
+    .custom-modal .modal-dialog {
+      margin-right: 0px !important;
+      position: absolute;
+      right: 5px;
+    }
+  }

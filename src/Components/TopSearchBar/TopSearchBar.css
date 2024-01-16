@@ -1,0 +1,110 @@
+.TopSearchBar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    padding: 0px 20px;
+    border-bottom: 1px solid #F4F4F4;
+    background-color: white;
+}
+.TopSearchBar-one{
+    display: flex;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 6px;
+    border-radius: 10px;
+}
+.TopSearchBar-one input::placeholder{
+    color: #9A9FA5;
+    font-weight:400;
+    font-size:13px;
+    font-family: inter;
+}
+.TopSearchBar-one svg{
+    color: #6F767E;
+    font-size: 23px;
+    padding-left:8px;
+    cursor: pointer;
+}
+.TopSearchBar-one input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 310px;
+    padding-left: 10px;
+}
+.TopSearchBar-Alpha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.TopSearchBar-Alpha svg{
+    color: #6F767E;
+    font-size: 28px;
+    margin: 5px;
+    cursor:pointer
+}
+.TopSearchBar-Alpha svg:hover{
+    color: #00AFEF;
+    transition: 0.2s ease-in-out;
+}
+.TopSearchBar-Alpha img{
+   height: 38px;
+   width: 38px;
+   cursor: pointer;
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon-container::before {
+    content: '';
+    position: absolute;
+    top: 3px; 
+    right: 4px; 
+    width: 10px;
+    height:10px;
+    background-color: #00afef;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .icon-container1{
+    position: relative;
+    display: inline-block;
+  }
+  .icon-container1::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 8px; 
+    width:10px;
+    height:10px;
+    background-color: #00afef;
+    border-radius: 50%;
+   border: 2px solid white;
+  }
+  
+  .icon-container1.clicked::before {
+   display:none;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

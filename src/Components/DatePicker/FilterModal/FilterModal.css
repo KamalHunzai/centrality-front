@@ -1,0 +1,70 @@
+.Filter{
+    height: auto;
+    box-shadow: 3px 0px 20px 10px rgba(61, 70, 112, 0.08);
+}
+
+.Filter .modal-content{
+    width: 317px !important;
+    padding: 10px;
+    height: 300px;
+}
+.Filter hr{
+    color: rgb(190, 192, 199);
+}
+
+.Filter .label-one{
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+    color: rgba(131, 137, 140,1);
+}
+
+.FilterFirstBtn{
+    width: 95% !important;
+    margin-top: 10px;
+    background-color: rgba(0,175,239,1) !important;
+    border: none !important;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.FilterFirstBtn:hover{
+    background-color: #fff;
+    border: 1px solid rgba(0,175,239,1);
+    color: rgba(0,175,239,1);
+}
+
+.Filter h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 17px;
+    color: rgba(83, 84, 92, 1);
+}
+
+.Filter-Status label{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(83, 84, 92, 1);
+}
+
+.Filter-Status select{
+    margin-top: 8px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #fff !important;
+    border: 1px solid rgba(225, 226, 233, 1) !important;
+    color: rgba(28, 29, 34, 1) !important;
+    height: 38px !important;
+    border-radius: 8px !important;
+}
+
+.FilterModalBtn{
+    height: 36px;
+    margin-top: 22px;
+    width: 100%;
+    border-radius: 16px;
+    background-color: rgba(0, 175, 239,1) !important;
+    border: none;
+    color: white;
+}

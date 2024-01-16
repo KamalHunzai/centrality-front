@@ -1,0 +1,136 @@
+.mygrade-main {
+    width: 350.793px;
+    height: auto;
+    background-color: #ffefef;
+    position: relative;
+    border-radius: 4.636px;
+    border: 0.927px solid #e6e6e6;
+
+  }
+  .MyGrade-main-Map{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .mygrade-main span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #f93333;
+    font-size: 12.98px;
+    font-weight: 400;
+    padding: 5px 15px;
+  }
+  .mygrade-child {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 30px 15px 12px 15px;
+  }
+  .mygrade-child svg{
+    color: black;
+  }
+  .mygrade-child p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3c3c3c;
+  }
+  .mygrade-child-1 h2 {
+    color: #3c3c3c;
+    font-size: 18.542px;
+    font-weight: 600;
+  }
+  .mygrade-child-1 p {
+    margin: 0;
+    color: #9a9a9a;
+    font-size: 14.834px;
+    font-weight: 400;
+    margin-top: 13px;
+  }
+  .mygrade-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .calander-icon {
+    display: flex;
+    gap: 7px;
+  }
+  .time-icon {
+    display: flex;
+    gap: 7px;
+    margin-left: 15px;
+  }
+  .mygrade-percentage .mygrade-percentage-test {
+    margin-bottom: 0;
+    color: #9a9a9a;
+    font-size: 14.834px;
+    font-weight: 400;
+  }
+  .Passing-Percentage {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .Scored-Percentage {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  .Passing-Percentage p {
+    color: #00afef;
+    font-size: 12.98px;
+    font-weight: 400;
+  }
+  .Passing-Percentage h6{
+    color: black;
+  }
+  .Scored-Percentage p {
+    color: #f93333;
+    font-size: 12.98px;
+    font-weight: 400;
+  }
+  .Scored-Percentage h6{
+    color: black;
+  }
+  .mygrade-process-line {
+    width: 323px;
+    height: 5px;
+  }
+  .mygrade-process-line::-webkit-progress-bar {
+    background-color: #d9d9d9;
+  }
+  .mygrade-process-line::-webkit-progress-value {
+    
+    border-radius: 4px;
+  }
+  
+  .mygrade-btn button {
+    width: 325.417px;
+    height: 38.939px;
+    flex-shrink: 0;
+    border-radius: 3.708px;
+    background: #f93333;
+    border: none;
+  }
+  .mygrade-btn a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .mygrade-process-line {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent; /* Set background to transparent */
+  }
+  
+  .mygrade-process-line::-webkit-progress-bar {
+    background-color: #ccc; /* Set background color for the progress bar container */
+  }
+  
+  .mygrade-process-line::-webkit-progress-value {
+    background-color: var(--progressbar-color, green); /* Set default progress bar color to green */
+  }

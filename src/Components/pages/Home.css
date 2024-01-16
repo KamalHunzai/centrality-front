@@ -1,0 +1,22 @@
+.Home-main{
+    display: flex;
+    gap: 10px;
+}
+.Home-70{
+    width: 70%;
+    padding: 12px 1px 6px 14px;
+
+}
+.Home-30{
+    width: 30%;
+    background-color: #fff;
+}
+
+.Click{
+    text-align: center;
+    margin-top: 20px !important;
+    font-size: 13px;
+    font-weight:600;
+    color: #4E5566;
+}
+

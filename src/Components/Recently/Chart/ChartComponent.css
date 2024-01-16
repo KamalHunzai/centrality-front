@@ -1,0 +1,102 @@
+.appp{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px;
+}
+
+.appp .chart-container .dropdowns{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.appp .chart-container .dropdowns button{
+    margin-bottom: -2rem;
+    box-shadow: none;
+}
+.apexcharts-legend-marker {
+    border-radius: 20px !important;
+}
+#dropdown-basic{
+    color: #979699;
+font-size: 13px;
+font-weight: 400;
+background-color: transparent;
+border: 1px solid rgba(151, 150, 153, 0.24);
+}
+.dropdown-menu{
+    --bs-dropdown-min-width: 5rem !important;
+    --bs-dropdown-padding-y: 0.2rem !important;
+}
+.dropdown-menu a{
+    font-size: 13px !important;
+    margin: 0px;
+    padding: 5px 16px;
+    color: #979699;
+    font-weight: 400;
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
+.apexcharts-legend{
+    display: flex !important;
+    justify-content: start !important;
+    gap: 10rem;
+    align-items: center !important;
+    position: absolute !important;
+    top: -9rem !important;
+    z-index: 43000000000 !important;
+}
+.Recommend_App{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.Recommend_App span{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.Recommend_App span p{
+    font-weight: 800;
+    font-size: 22px;
+    color: rgba(0, 86, 210, 1);
+}
+.Recommend_App h2{
+    font-weight: 600;
+    font-size: 18.54px;
+    color: rgba(0, 0, 0, 1);
+    float:right;
+}
+.Recommend_App span img{
+    width: 29px;
+    height: 29px;
+}
+.Recommend_App span svg{
+    color: rgba(255, 205, 29, 1);
+    box-shadow: 0.9px 0.2px 6px 0.1px rgba(83, 65, 65, 0.178);
+}
+.RecommendQuizImg img{
+    height: 50px !important;
+    width: 140px !important;
+}
+
+.RecommendQuizImg2 img{
+    height: 30px !important;
+    width: 100px !important;
+    margin-bottom: 18px;
+    margin-right: 20px;
+}
+.RecommendQuizImg2{
+    margin-left: 18px;
+}
+.RecommendQuizImg2 svg{
+    margin-bottom: 18px;
+}
+.Recommend-APP{
+    border-left: 1px solid rgba(242, 237, 238, 1);
+    padding-left: 100px;
+}

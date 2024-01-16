@@ -1,0 +1,336 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashboardewrapper {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    background-color: #F4F4F4;
+}
+
+.sidebar {
+    transition: all 0.5s;
+    float: left;
+    border-right: 1px solid #F4F4F4;
+    background-color: #fff !important;
+    position: relative;
+    z-index: 100;
+}
+
+.top_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_section hr {
+    width: 100%;
+    border-top: 1px solid #afafaf;
+    margin: 0;
+}
+.IdImg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IdImg img {
+    width: 80px;
+    height: 80px;
+    margin-top: 18px;
+    
+}
+
+.IdImg h4 {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #202020;
+    margin-top: 10px;
+}
+
+.IdImg p {
+    font-weight: 400;
+    font-family: inter;
+    font-size: 12px;
+    color: #7E7E7E;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.IdImgBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 122px;
+    background-color: #00AFEF;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inter;
+    gap: 4px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+}
+
+.Logo img {
+    height: 32px;
+    width: 30px;
+}
+
+.Logo h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000CC;
+}
+
+.menubar {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+}
+
+.Sidebar-link {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color: #64748B;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Inter;
+    gap: 8px;
+    transition: all 0.5s;
+    text-decoration: none;
+    height: 48px;
+    width: 233px;
+}
+
+.Sidebar-link:hover {
+    background-image: linear-gradient(to bottom, transparent 20%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, transparent 80%);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5px 100%;
+    border-width: 50%;
+    background-color: #00AFEF;
+    color: white;
+}
+
+.d-sm-inline{
+    display: flex;
+    flex-direction: column;
+}
+.Sidebar-sublink{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+.Sidebar-sublink:hover{
+    color: #00AFEF;
+}
+.Sidebar-sublink a{
+    text-decoration: none;
+    color: #64748B;
+    font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+letter-spacing: 0.2px;
+}
+
+.Sidebar-sublink a:hover ,
+.Sidebar-sublink a:focus {
+    color: #00AFEF;
+}
+.Sidebar-sublink.active {
+    background-color: transparent;
+}
+.Sidebar-sublink.active li{
+    color: #00AFEF;
+}
+.Sidebar-sublink li{
+    margin-right: 0 !important;
+}
+
+.Sidebar-sublink .done{
+    margin: 0 !important;
+}
+.active {
+    color: white;
+    background-color: #00AFEF;
+    background-image: linear-gradient(to bottom, transparent 20%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, transparent 80%);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5px 100%;
+    border-width: 50%;
+}
+
+.icon svg {
+    font-size: 19px;
+    margin-left: 24px;
+}
+
+.CartoonImg {
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.link_text{
+    padding-top: 3px;
+
+}
+
+
+
+.navbar-toggle {
+    display: none;
+}
+.navbar-toggle span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #00AFEF;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.navbar-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  
+  .navbar-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  
+    /* .sidebar.active a:focus .sidebar{
+        display: none;
+    } */
+    .sidebar.active {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 2rem;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      height: auto;
+      padding: 10px 0;
+      transition: .4s ease;
+      background-color: var(--bg-color);
+    }
+  
+    .sidebar.active a {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+    }
+    .Home-30 {
+        width: 100%;
+    }
+    .Home-main {
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .menubar {
+        height: 220vh;
+    }
+    .IdImgBtn{
+        height: 40px;
+        width: 200px;
+    }
+    .IdImg img {
+        width: 90px;
+        height: 90px;
+    }
+    .IdImg h4 {
+        font-size: 18px;
+    }
+    .Logo img {
+        height: 42px;
+        width: 40px;
+    }
+    .Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo h4 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .CartoonImg {
+        height: 300px;
+        width: 200px;
+    }
+    .Fullwidth{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Full-Width{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .link_text {
+        font-size: 20px;
+    }
+    .Sidebar-sublink li {
+        margin-left: 3rem !important;
+    }
+    .Sidebar-link {
+        height: 58px;
+        width: 80%;
+    }
+    
+  }
+  @media (max-width:520px) {
+    .TopSearchBar-one input {
+        width: 100% !important;
+        padding-left: 10px;
+    }
+  }

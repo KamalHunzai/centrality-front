@@ -1,0 +1,479 @@
+.Gpa {
+  /* background: #FFF; */
+  /* box-shadow: 19px -7px 40px 0px rgba(49, 69, 86, 0.10); */
+  padding: 20px;
+  height: auto;
+  width: 100%;
+  /* margin: 20px; */
+}
+
+.Gpa table {
+  width: 100% !important;
+  margin-top: 10px;
+  height: auto;
+}
+
+.course-input{
+  width: 100%;
+  height: 47px !important;
+}
+
+.Gpa td{
+  width: 20%;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 1rem 0px;
+}
+
+.Gpa-h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+ padding: 20px;
+}
+
+.course-input{
+  width: 90%;
+  height: 47px;
+ 
+}
+
+.Gpa input,
+select {
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  background-color: #F2F7F7;
+  font-size: 14.27px;
+  color: #00AFEF;
+  margin-top: 10px;
+}
+
+.Gpa select {
+  font-weight: 300;
+  width: 90% !important;
+  height: 47px;
+  font-size: 14.27px;
+  color: #00AFEF;
+  margin-top: 10px;
+}
+
+.Gpa input::placeholder {
+  font-weight: 300;
+  font-size: 14.27px;
+  color: #00AFEF;
+}
+
+.Gpa tr th {
+  font-weight: 700;
+  font-size: 15px;
+  color: #00AFEF;
+  height: auto;
+}
+
+.cancel-btn svg {
+  color: #00AFEF;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.GpaButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.Add-btn {
+  color: #00AFEF;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+
+.Add-btn svg {
+  font-size: 15px;
+}
+
+.Clean-btn {
+  color: #D62246;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+}
+
+.Clean-btn svg {
+  font-size: 15px;
+
+}
+
+.CalculateData {
+  width: 60%;
+  height: 47px;
+  background-color: #F5F4F6;
+  font-size: 15px;
+  font-weight: 500;
+  color: #03045E;
+  text-align: center;
+  padding-top: 8px;
+  margin: auto;
+}
+
+.CalculateData p{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.Calculate-btn {
+  width: 130px;
+  height: 47px;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #00AFEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ADDSemi-btn {
+  width: 130px;
+  height: 47px;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #03045E;
+  color: white;
+  margin-top: 10px;
+
+}
+
+.download-edit-btn{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.download-btn{
+color: #FFF;
+text-align: center;
+font-family: Rubik;
+font-size: 12px;
+font-weight: 500;
+width: 120px;
+height: 30px;
+flex-shrink: 0;
+background: var(--new, #00AFEF);
+}
+
+.edit{
+color: #FFF;
+text-align: center;
+font-family: Rubik;
+font-size: 12px;
+font-weight: 500;
+width: 120px;
+height: 30px;
+flex-shrink: 0;
+background: var(--Secondary-300, #03045E);
+}
+
+.new-Semester h2{
+  color: var(--Secondary-300, #03045E);
+font-size: 24px;
+font-weight: 500;
+padding: 20px;
+}
+.CalculateData h1 {
+  font-size: 20px;
+}
+
+.nestedlinkWork{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width:600px) {
+  .Gpa-h1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 11px;
+    padding: 10px ;
+}
+.Gpa tr th {
+  font-weight: 700;
+  font-size: 12px;
+  color: #00AFEF;
+  height: auto;
+}
+
+
+.course-input{
+  width: 100%;
+  height: 30px !important;
+}
+
+.Gpa select {
+  font-weight: 300;
+  width: 90% !important;
+  height: 30px !important;
+  font-size: 11.27px;
+  color: #00AFEF;
+}
+.Gpa input::placeholder {
+  font-weight: 300;
+  font-size: 11.27px;
+  color: #00AFEF;
+}
+.cancel-btn svg {
+  color: #00AFEF;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Add-btn {
+
+  font-size: 12px;
+
+}
+.Clean-btn {
+  font-size: 12px;
+}
+.CalculateData {
+  height: 30px;
+  font-size: 12px;
+}
+.Calculate-btn {
+  width: 110px;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.ADDSemi-btn {
+  width: 110px;
+  height: 30px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+}
+
+@media (max-width:501px) {
+  .Gpa-h1 {
+    font-weight: 700;
+    font-size: 13px;
+    color: #333333;
+    margin-top: 9px;
+    padding: 10px;
+}
+.course-input{
+  width: 100%;
+  height: 25px !important;
+}
+.Gpa select {
+  width: 90% !important;
+  height: 25px !important;
+  font-size: 9.27px;
+}
+.Gpa input::placeholder {
+  font-size: 9.27px;
+  color: #00AFEF;
+}
+.cancel-btn svg {
+  font-size: 12px;
+}
+.CalculateData {
+  height: 25px;
+  font-size: 10px;
+}
+.Calculate-btn {
+  width: 100px;
+  height: 25px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+.ADDSemi-btn {
+  width: 100px;
+  height: 25px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.Gpa tr th {
+  font-weight: 700;
+  font-size: 9px;
+  margin-bottom: 0px;
+}
+}
+
+@media (max-width:396px) {
+  .Gpa tr th {
+    font-weight: 400;
+    font-size: 7px;
+}
+.Gpa input::placeholder {
+  font-size: 6px !important;
+}
+.Gpa select {
+  font-size: 9px !important;
+}
+.Add-btn ,
+.Clean-btn{
+  font-size: 9px;
+}
+.Add-btn svg ,
+.Clean-btn svg {
+  font-size: 10px;
+}
+.cancel-btn svg {
+  font-size: 9px;
+}
+.ADDSemi-btn {
+  width: 70px;
+  font-size: 8px;
+}
+.Calculate-btn {
+  width: 80px;
+  font-size: 8px;
+}
+.Gpa select {
+  font-size: 6px !important;
+}
+}
+@media (max-width:316px) {
+  .Gpa tr th {
+    font-weight: 400;
+    font-size: 6px;
+}
+.Gpa input{
+  font-size: 1px !important;
+  height: 15px !important;
+}
+.Gpa select {
+  height: 15px !important;
+}
+.ADDSemi-btn,
+.Calculate-btn  {
+  width: 50px;
+  font-size: 6px;
+  height: 20px;
+  margin: 0px;
+}
+.CalculateData {
+  height: 15px;
+}
+.Calculate-btn {
+  width: 60px;
+}
+.Add-btn ,
+.Clean-btn{
+  font-size: 7px;
+}
+.Add-btn svg ,
+.Clean-btn svg {
+  font-size: 9px;
+}
+}
+@media (max-width:322px) {
+  .Gpa tr th {
+    font-size:5px;
+}
+.ADDSemi-btn, .Calculate-btn {
+  width: 40px;
+  font-size: 5px;
+  height: 18px;
+  margin: 0px;
+}
+}
+
+@media (min-width: 1349px ) {
+  .GpaHome{
+    padding: 15px;
+  }
+  .GpaHome .Gpa-h1 {
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #333333 !important;
+    margin-top: 9px !important;
+    padding: 10px !important;
+}
+.GpaHome .course-input{
+  width: 100% !important;
+  height: 25px !important;
+  margin-right: 1px !important;
+}
+.GpaHome td {
+  width: 20%;
+  height: auto;
+  margin-right: 1px !important;
+}
+.GpaHome select {
+  width: 90% !important;
+  height: 25px !important;
+  font-size: 9.27px !important;
+}.GpaHome input,
+.GpaHome input::placeholder {
+  font-size: 9.27px !important;
+  color: #00AFEF;
+}
+.GpaHome .cancel-btn svg {
+  font-size: 12px !important;
+}
+.GpaHome .CalculateData {
+  height: 25px !important;
+  font-size: 10px !important;
+}
+.GpaHome .Calculate-btn {
+  width: 100px !important;
+  height: 25px !important;
+  margin-top: 5px !important;
+  font-size: 10px !important;
+}
+.GpaHome .ADDSemi-btn {
+  width: 100px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  margin-top: 5px !important;
+}
+.GpaHome .Add-btn,
+.GpaHome .Clean-btn,
+.GpaHome .Add-btn svg,
+.GpaHome .Clean-btn svg {
+  font-size: 10px !important; 
+  margin-bottom: 2px !important;
+}
+
+.GpaHome .Add-btn svg,
+.GpaHome .Clean-btn svg{
+  font-size: 10px !important;
+} 
+.GpaHome tr td{
+  margin-right: 10px !important;
+}
+.GpaHome tr th {
+  font-weight: 700;
+  font-size: 8px !important;
+  margin-bottom: 0px;
+}
+}
+ 
+   

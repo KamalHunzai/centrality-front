@@ -1,0 +1,970 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+.open {
+    z-index: 12345676;
+}
+.tableone{
+    margin: 20px 0px !important;
+}
+body {
+    position: relative;
+}
+
+body .navbar-toggle {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+@media (max-width:1348px) {
+    .Home-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home-70 {
+        width: 98% !important;
+        padding: 12px 1px 6px 14px;
+    }
+
+    .Home-30 {
+        width: 98% !important;
+    }
+
+    .home-h1 {
+        text-align: center;
+    }
+
+    .Gpa {
+        margin: 0px 10px;
+    }
+
+    #SvgjsSvg1232 {
+        width: 100% !important;
+    }
+
+    .MyGrade-main-Map {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.App .CopyRight {
+    text-align: center;
+    color: #243144;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px !important;
+    margin-bottom: 0;
+}
+
+.app {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+@media (max-width:1212px) {
+    .ClassLectures-main .main-ClassLectures {
+        width: 70% !important;
+    }
+}
+
+@media (max-width:952px) {
+    .ClassLectures-main .main-ClassLectures {
+        width: 80% !important;
+    }
+}
+
+@media (max-width:868px) {
+    .ClassLec-From-To span {
+        font-size: 10px !important;
+    }
+
+    .ClassLec-From-To button {
+        height: 30px !important;
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .ClassLec-head h1,
+    p {
+        font-weight: 500 !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width:1144px) {
+    .my-icon {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .Mycard-main-child-2 h2 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width:1042px) {
+    .mychild-myassingment .myassingment-time p {
+        font-size: 8px !important;
+        font-weight: 500 !important;
+    }
+
+    .description p {
+        font-size: 9px !important;
+    }
+
+    .mychild-myassingment h6 {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+
+    .description h5 {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:1038px) {
+    .Transcripts-Second {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 29px;
+        padding-right: 40px;
+    }
+
+    .Transcripts-child1 {
+        width: 100% !important;
+    }
+
+    .Transcripts-child1 .inputt .mainInput {
+        width: 55% !important;
+    }
+}
+
+@media (max-width:1040px) {
+    .Mycard-main {
+        gap: 10px !important;
+    }
+
+    .Mycard-main-child-2 h2 {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:1005px) {
+    .ByDate {
+        display: flex;
+        align-items: center;
+    }
+
+    .ByDate h3 {
+        margin: 0px !important;
+        font-size: 14px !important;
+    }
+
+    .DaTe input,
+    .shoW {
+        display: flex;
+        padding: 9px 12px !important;
+        font-size: 12px !important;
+    }
+
+    .Main .input {
+        height: 37px !important;
+        padding: 9px 12px !important;
+    }
+}
+@media (max-width:919px) {
+    .Request .backBtton h3 {
+        font-size: 22px !important;
+    }
+    .Request .profile .img img {
+        margin-right: 20px !important;
+    }
+    .Request .profile .img .info h4 {
+        font-size: 18px !important;
+    }
+.Request .profile .img .info p {
+    font-size: 12px !important;
+}
+.Request .profile .imgInFo h5 {
+    font-size: 18px !important;
+}
+.Request .profile .imgInFo p {
+    font-size: 14px !important;
+}
+form .Details textarea {
+    width: 90% !important;
+    font-size: 14px !important;
+}
+form .inputs .input input {
+    font-size: 12px !important;
+}
+.understand ul li {
+    font-size: 12px !important;
+}
+.inputs .label{
+    margin-top: 10px !important;
+}
+.inputs .label label {
+    font-size: 16px !important;
+}
+.btnS .BtnsCancel,
+.btnS .BtnsSend {
+    width: 85px !important;
+    height: 32px !important;
+    margin-right: 16px !important;
+    font-size: 12px !important;
+}
+
+.btnS .BtnsSend{
+    width: 120px !important;
+
+}
+}
+@media (max-width:829px) {
+    .Request .profile .img .info p {
+        font-size: 10px !important;
+    }
+    .Request .profile .imgInFo p {
+        font-size: 11px !important;
+    }
+}
+@media (max-width:528px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .Request .profile .imgInFo {
+        align-items: start !important;
+    }
+    .Request .backBtton span {
+        font-size: 32px !important;
+    }
+}
+@media (max-width:602px) {
+    .understand ul li {
+        font-size: 9px !important;
+    }
+}
+@media (max-width:510px) {
+    form .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    form .inputs .input input {
+        margin: 0px !important;
+    }
+    form .inputs .input {
+        width: 100% !important;
+    }
+    form .Details textarea{
+        width: 100% !important; 
+    } 
+    .Request .inputs .input{
+        width: 100% !important;
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+    }
+    .Request .inputs input {
+        /* width: 40% !important; */
+        margin-right: 0px !important;
+    }
+    .btnS{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .btnS .BtnsSend,
+    .btnS .BtnsSend {
+        margin: 0px !important;
+    }
+    .Request .inputs .label{
+        display: flex;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+}
+@media (max-width:725px) {
+    .Main .input {
+        width: 200px !important;
+        height: 37px !important;
+        padding: 9px 12px !important;
+    }
+    .Main .input input{
+        width: 90% !important;
+    }
+}
+@media (max-width:651px) {
+    .ByDate h3 {
+        font-size: 12px !important;
+    }
+    .main-order .firstdiv .tablerow th {
+        font-size: 12px !important;
+    }
+    .main-order .firstdiv tr td {
+        font-size: 10px !important;
+    }
+    .main-order .firstdiv tr td .img .proinfo h3 {
+        font-size: 10px !important;
+    }
+    .main-order .firstdiv tr {
+        margin: 10px 0 !important;
+    }
+    .main-order {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+}
+@media (max-width:631px) {
+    .Main .input {
+        width: 150px !important;
+        height: 30px !important;
+    }
+    .Main .input input{
+        font-size: 10px !important;
+    }
+    .shoW {
+        padding: 9px 12px !important;
+        gap: 5px !important;
+        font-size: 10px !important;
+        width: 100px !important;
+        height: 30px !important;
+    }
+    .DaTe input, .shoW {
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+}
+@media (max-width:565px) {
+    .ByDate{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .ByDate .Main {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+    .Request .backBtton h3 {
+       font-size: 16px !important;
+    }
+    .Request .backBtton span {
+        font-size: 16px !important;
+    }
+    .Request .backBtton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .App .CopyRight {
+        font-size: 12px !important;
+    }
+}
+@media (max-width:486px) {
+    .understand ul{
+        padding-left: 10px !important;
+    }
+}
+@media (max-width:463px) {
+    .understand ul li {
+        font-size: 8px !important;
+    }
+}
+@media (max-width:425px) {
+    .Request .inputs .inputss input{
+        width: 47% !important;
+    }
+    .understand ul li {
+       font-size: 6px !important;
+    }
+    .understand h2 {
+        font-size: 16px !important;
+        margin-bottom: 0px !important;
+    }
+}
+@media (max-width:477px) {
+.Attendence-card-main {
+    gap: 10px !important;
+}
+.Mycard-main {
+    width: 25%;
+    gap: 10px !important;
+    padding: 7px !important;
+}
+}
+@media (max-width:960px) {
+    .my-icon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .Mycard-main-child-2 h2 {
+        font-size: 16px !important;
+    }
+
+    .Mycard-main-child-2 p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:941px) {
+    .myassingment-card-child-2 {
+        width: 60% !important;
+        display: flex;
+        gap: 10px !important;
+    }
+
+    .myassingment-card {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .myassingment-card-child-1 {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        width: 100%;
+        /* Full width on smaller screens */
+        padding: 0 10px;
+        /* Optional padding for better spacing */
+    }
+
+    .TopSearchBar-one {
+        margin-left: 25px;
+    }
+
+    .nav-tabs .nav-item .nav-links {
+        max-width: 110px !important;
+    }
+}
+
+@media (max-width:679px) {
+    .dov button {
+        font-size: 9px !important;
+        padding: 7px 5px !important;
+    }
+
+    .description p {
+        font-size: 8px !important;
+    }
+
+    .myassingment-child-data .date {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .mychild-myassingment h6 {
+        margin: 0px !important;
+        font-size: 11px !important;
+    }
+
+    .myassingment-mother span {
+        font-size: 11px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .myassingment-card {
+        padding: 10px !important;
+        height: 80px !important;
+    }
+
+    .myassingment-child {
+        height: 100% !important;
+    }
+}
+
+@media (max-width:580px) {
+    .myassingment-radio-btn p {
+        font-weight: 400 !important;
+        font-size: 10px !important;
+    }
+
+    .myassingment-radio-btn svg {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .dov button {
+        font-size: 7px !important;
+        font-weight: 600 !important;
+        height: 30px !important;
+        padding: 5px 5px !important;
+    }
+
+    .description h5 {
+        font-size: 10px !important;
+    }
+
+    .description p {
+        font-size: 7px !important;
+    }
+
+    .mychild-myassingment .myassingment-time p {
+        font-size: 6px !important;
+        font-weight: 400 !important;
+    }
+
+    .mychild-myassingment h6 {
+        font-size: 10px !important;
+    }
+
+    .myassingment-child-data .date {
+        font-size: 14px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width:550px) {
+    .ClassLectures-main .main-ClassLectures {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:458px) {
+    .ClassLec-From-To span {
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width:404px) {
+    .ClassLec-From-To button {
+        height: 25px !important;
+        width: 70px !important;
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width:381px) {
+    .ClassLec-From-To span {
+        font-size: 5px !important;
+    }
+
+    .ClassLec-head h1,
+    p {
+        font-size: 12px !important;
+    }
+
+    .ClassLec-From-To button {
+        height: 30px !important;
+        width: 50px !important;
+        font-size: 6px !important;
+    }
+}
+
+@media (max-width:538px) {
+    .nav-tabs .nav-item .nav-links {
+        max-width: 100px !important;
+        font-size: 8px !important;
+    }
+
+    .TestContent {
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+
+@media (max-width:528px) {
+    foreignObject {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width:696px) {
+    .Welcome-main {
+        height: 100px !important;
+    }
+
+    .Welcome-main .Welcome-div2 img {
+        height: 104px !important;
+        width: 90% !important;
+    }
+
+    .Welcome-main h1 img {
+        height: 30px !important;
+        width: 35px !important;
+    }
+
+    .Welcome-main h1 {
+        font-size: 23px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .Welcome-main .Welcome-div1 p {
+        font-size: 10px !important;
+    }
+
+    .Personal-Details-child-2 h3,
+    span {
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+
+    .chart-container {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:587px) {
+    .Transcripts-Head {
+        height: 45px !important;
+        font-size: 22px !important;
+    }
+
+    .SignaTure {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:571px) {
+    .AdminisTrator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SCHOOLNAME {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SCHOOLNAME input {
+        margin-left: 0px !important;
+    }
+
+    .table {
+        margin: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    .TranscriptCom table thead tr th {
+        font-size: 13px !important;
+    }
+
+    .TranscriptCom table tbody tr td {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:526px) {
+    .Classroom-child-2 {
+        width: 100% !important;
+    }
+
+    .Classroom-child-2 .classroom-child-2-img {
+        width: 95%;
+    }
+
+    .Classroom-child-2 .classroom-child-2-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Classroom-child-2-main {
+        width: 95% !important;
+        height: auto !important;
+        padding-bottom: 20px;
+    }
+
+    .Transcripts-child1 .inputt {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .Transcripts-child1 .inputt input,
+    .Transcripts-child1 .inputt .mainInput {
+        margin-left: 0px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width:507px) {
+    .Welcome-main h1 {
+        font-size: 18px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .Welcome-main .Welcome-div1 p {
+        font-size: 9px !important;
+    }
+
+    .Personal-Details-child-2 h3,
+    span {
+        font-size: 10px !important;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:488px) {
+    .dov button {
+        width: 80px !important;
+    }
+}
+
+@media (max-width:470px) {
+    .btnNs button {
+        padding: 10px 15px;
+        font-size: 14px !important;
+    }
+
+    .indicatesCommunity {
+        margin: 0px !important;
+    }
+
+    .Transcripts-First-inputs {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .SCHOOLNAME {
+        width: 100% !important;
+    }
+
+    element.style {
+        margin-left: 33px;
+    }
+
+    .Transcripts-First-inputs input {
+        width: 100% !important;
+    }
+
+    .school-Logo {
+        height: 89px !important;
+        width: 89px !important;
+    }
+}
+
+@media (max-width:450px) {
+    .nav-tabs .nav-item .nav-links {
+        max-width: 90px !important;
+        font-size: 7px !important;
+        padding: 5px 2px !important;
+    }
+}
+
+@media (max-width:420px) {
+    .Welcome-main {
+        height: 90px !important;
+    }
+
+    .Welcome-main .Welcome-div2 img {
+        height: 90px !important;
+        width: 90% !important;
+    }
+
+    .Welcome-main h1 img {
+        height: 25px !important;
+        width: 30px !important;
+    }
+
+    .Welcome-main h1 {
+        font-size: 16px !important;
+    }
+
+    .Welcome-main .Welcome-div1 p {
+        font-size: 8px !important;
+    }
+
+    #dropdown-basic {
+        font-size: 10px !important;
+    }
+
+    .dropdown-menu a {
+        font-size: 10px !important;
+    }
+    .Chart .row .chart-container .dropdowns h3 {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media (max-width:435px) {
+    .nav-tabs .nav-item .nav-links {
+        max-width: 70px !important;
+        font-size: 5px !important;
+    }
+
+    .MyGrade-main-Map .mygrade-child {
+        width: 100% !important;
+    }
+
+    .mygrade-child-1 h2 {
+        font-size: 16px !important;
+    }
+
+    .mygrade-child-1 p,
+    .mygrade-child p {
+        font-size: 12px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .Passing-Percentage h6,
+    .Scored-Percentage h6 {
+        font-size: 14px !important;
+    }
+
+    .mygrade-btn {
+        width: 100%;
+    }
+
+    .mygrade-btn button {
+        width: 100% !important;
+        height: 35px !important;
+    }
+
+    .progress-bar-line {
+        width: 100% !important;
+    }
+
+    .mygrade-process-line {
+        width: 100% !important;
+        height: 5px;
+    }
+
+    .mychild-myassingment .myassingment-time p {
+        font-size: 5px !important;
+        font-weight: 400 !important;
+        margin-top: 3px !important;
+    }
+
+    .mychild-myassingment h6 {
+        font-size: 8px;
+    }
+
+    .myassingment-child-data {
+        gap: 5px !important;
+    }
+
+    .myassingment-mother span {
+        font-size: 7px !important;
+    }
+
+    .myassingment-radio-btn p {
+        font-size: 8px !important;
+    }
+
+    .myassingment-child-1 {
+        gap: 10px !important;
+    }
+
+    .myassingment-child-1 svg {
+        width: 9px !important;
+        height: 9px !important;
+    }
+    .Chart .row .chart-container .dropdowns h3 {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+}
+@media (max-width:411px) {
+    .Main .input {
+        width: 100px !important;
+    }
+    .DaTe input, .shoW {
+        padding: 3px 4px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:396px) {
+    .description p {
+        font-size: 5px !important;
+    }
+
+    .mychild-myassingment h6 {
+        font-size: 8px !important;
+    }
+
+    .mychild-myassingment .myassingment-time p {
+        font-size: 4px !important;
+    }
+
+    .dov button {
+        width: 60px !important;
+        height: 20px !important;
+        font-size: 5px !important;
+    }
+
+    .myassingment-card-child-2 {
+        width: 60% !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+    .main-order .firstdiv tr .product {
+        width: 100px !important;
+    }
+    .main-order .firstdiv tr td .img .proinfo h3 {
+        font-size: 8px !important;
+    }
+    .main-order .firstdiv tr td {
+        font-size: 8px !important;
+    }
+    .main-order .firstdiv tr td img {
+        width: 30px !important;
+        height: 30px !important;
+        margin-right: 4px !important;
+    }
+    .main-order .firstdiv .tablerow {
+        margin: 0px !important;
+    }
+    .main-order .firstdiv .tablerow th {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:349px) {
+    .apexcharts-legend {
+        display: none !important;
+    }
+
+    foreignObject {
+        height: 300px !important;
+    }
+}
+
+@media (max-width:387px) {
+    .offcanvas {
+        width: 99% !important;
+    }
+
+    .offcanvas .notification-main {
+        width: 100%;
+    }
+    .App .CopyRight {
+        font-size: 6px !important;
+    }
+}

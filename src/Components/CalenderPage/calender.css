@@ -1,0 +1,42 @@
+.rbc-event, .rbc-day-slot .rbc-background-event {
+    padding: 18px 5px;
+    height: 120px !important;
+    background-color: rgb(192, 238, 255);
+    border-radius: 5px;
+    color:  var(--new, #00AFEF);
+    cursor: pointer;
+}
+.rbc-toolbar button{
+    background-color: none;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.rbc-toolbar button:hover,
+.rbc-toolbar button:focus{
+    background-color: var(--new, #00AFEF);
+    color: #fff;
+}
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    background-color: var(--new, #00AFEF);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none ;
+}
+.rbc-toolbar button:active:hover, .rbc-toolbar button:active:focus, .rbc-toolbar button.rbc-active:hover, .rbc-toolbar button.rbc-active:focus {
+    color: #fff;
+    background-color: #00AFEF;
+    border-color: none;
+}
+.rbc-event-content{
+    color: var(--new, #00AFEF);
+font-size: 12px;
+font-weight: 600;
+}
+/* .rbc-btn-group > button:first-child:not(:last-child) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */

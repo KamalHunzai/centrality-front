@@ -1,0 +1,126 @@
+
+.Classroom-child-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 22px;
+  color: #06241b;
+  font-size:14px;
+  font-weight: 600;
+  padding:20px 0px;
+}
+
+.Classroom-child-1 span {
+  color: var(--Primary-900, var(--new, #00afef));
+  font-size: 14px;
+  font-weight:600;
+}
+.Classroom-child-1 p {
+  color: #06241b;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Classroom-child-1s p {
+  color: var(--Primary-900, #06241B);
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 0 !important;
+margin-left: 13px !important;
+}
+.Classroom-child-1s span{
+  color: var(--Primary-900, var(--new, #00AFEF));
+font-size: 24px;
+font-weight: 600;
+line-height: 40.792px;
+}
+.Classroom-child-2-map{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap:13px;
+  margin-top: 10px;
+}
+.Classroom-child-2-maps{
+  margin-top: 2.5rem;
+  row-gap:2rem;
+}
+.Classroom-child-2 {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.Classroom-child-2-main {
+  width:244px;
+  height: 263px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.Classroom-child-2-mains {
+  width: 344px;
+  height: 350px;
+  padding-bottom: 50px !important;
+}
+.three-dot-icon {
+  color: #6cd8cd;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.classroom-child-2-img {
+ margin-top: 20px;
+ border-radius: 4px;
+}
+
+.classroom-child-2-img img {
+  width: 216px;
+  height: 167px;
+}
+.classroom-child-2-imgs img {
+  width: 300px;
+  height: 250px;
+}
+.Classroom-child-2-main p {
+  color: #6cd8cd;
+  font-size: 10px;
+  font-weight: 700;
+  margin:0;
+  margin-top:8px
+}
+.Classroom-child-2-main .pra{
+  font-size: 12px;
+}
+.Classroom-child-2-main .Linkeded{
+text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Classroom-child-2-main button {
+  display: flex;
+  width: 87%;
+  height: 33.382px;
+  padding: 5.564px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.955px;
+  border: none;
+  border-radius: 8.345px;
+  border: 0px solid #00afef;
+  background: #6cd8cd;
+  color: #fff;
+  font-size: 14px;
+  font-weight:700;
+  font-family: inter;
+  margin-top:4px;
+}
+.Classroom-child-2-main .btton{
+  height: 40px;
+  font-size: 16px;
+}
+

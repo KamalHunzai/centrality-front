@@ -1,0 +1,93 @@
+.Summary{
+    width: 96.5%;
+    padding: 22px 25px 22px 22px;
+    margin: 2px 20px;
+    display: flex;
+    flex-direction: column;
+    background: #fff !important;
+    border-radius: 4px;
+}
+.Summary .Chemistry{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Summary .Chemistry .btnInfo{
+    display: flex;
+    flex-direction: column;
+}
+.Summary .Chemistry .btnInfo h4{
+    color: #3c3c3c;
+    font-size: 18.542px;
+    font-weight: 600;
+}
+.Summary .Chemistry .btnInfo p{
+    color: #3c3c3c;
+    font-size: 12.98px;
+    font-weight: 600;
+}
+.Summary .Chemistry .btnInfo p span{
+    color: #00AFEF;
+}
+.Summary .Chemistry .liveBtn{
+    color: #fff;
+    font-size: 13px;
+    padding: 11px 50px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #16d03b;
+    border: none;
+
+}
+.Summary .ClassTiming{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-top:1px solid rgba(0, 0, 0, 0.10);
+}
+.Summary .ClassTiming h6{
+    color: #3C3C3C;
+    font-size: 14.83px;
+}
+.Summary .ClassTiming .Teacher{
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-top:1px solid rgba(0,0, 0, 0.10);
+}
+.Summary .ClassTiming .Teacher table{
+   border-bottom: 1px solid rgba(0,0, 0, 0.10);
+}
+.Summary .ClassTiming .Teacher table tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 125px;
+}
+.Summary .ClassTiming .Teacher table tr th{
+    color:#4E5566;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.Summary .ClassTiming .Teacher td{
+    color: #5B5B5B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.Summary .AboutTeacher h5{
+    font-size: 18.54px;
+    font-weight: 600;
+    color: #3C3C3C;
+}
+.Summary .AboutTeacher p,
+.Summary .AboutTeacher p span{
+    font-weight: 400;
+    font-size: 14.83px;
+    color: #9A9A9A;
+    margin-top: 9px;
+}

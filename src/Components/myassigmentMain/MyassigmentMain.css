@@ -1,0 +1,149 @@
+.myassingment-main{
+    width: 100%;
+    height: 472px;
+    padding: 0px 20px;
+}
+.myassingment-child-1{
+    width: 100%;
+    height: 19px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.myassingment-radio-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+}
+.myassingment-radio-btn span{
+    width: 6px;
+    height: 6px;
+    background: #797979;
+    border-radius: 50%;
+}
+.myassingment-radio-btn p{
+    margin-bottom: 0;
+    color: #616161;
+    font-weight: 500;
+    font-size: 16px;
+}
+.myassingment-child-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.myassingment-card{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(249,51,51,0.11);
+    border: 1px solid #f93333;
+    opacity: .3;
+}
+
+.myassingment-card-child-1{
+    width: 30%;
+}
+/*  */
+
+.myassingment-child{
+    width: auto;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-radius: 20px;
+    background: transparent;
+
+}
+.myassingment-child-data{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+}
+.myassingment-child-date{
+    width: 50px;
+    height: 50px;
+    background: #f93333;
+    border-radius: 50%;
+
+}
+.myassingment-child-date p{
+    margin-top: 7px;
+    color: #fff;
+    text-align: center;
+    font-family: open sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+.mychild-myassingment{
+    align-items: center;
+}
+.mychild-myassingment h6{
+    display: flex;
+    font-size: 12px;
+    color: #333;
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: 700;
+}
+.mychild-myassingment .myassingment-time{
+    display: flex;
+}
+.mychild-myassingment .myassingment-time p{
+    color: #8a8a8a;
+    font-family: open sans;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+}
+.myassingment-mother{
+    display: flex;
+    font-size: 10px;
+    gap: 6px;
+}
+
+
+/*  */
+.myassingment-card-child-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+    align-items: center;
+}
+.description h5{
+    color: #f93333;
+    font-style: 14px;
+    font-family: inter;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.description p{
+    color: #4e5566;
+    font-family: inter;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.dov button{
+    color: #f93333;
+    font-family: open sans;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid #f93333;
+    height: 34px;
+    background: transparent;
+    align-items: center;
+}

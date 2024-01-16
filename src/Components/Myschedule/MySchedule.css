@@ -1,0 +1,105 @@
+.myschedule-main {
+  width: 100%;
+  background-color: white;
+  padding: 11px 12px;
+}
+
+.myschedule-heading {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myschedule-heading h1 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.myschedule-child {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border-radius: 20px;
+  background: #f0f7ff;
+}
+
+.myschedule-child-data {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+
+.myschedule-child-date {
+  width: 50px;
+  height: 50px;
+  background: #00afef;
+  border-radius: 50%;
+
+}
+
+.myschedule-child-date p {
+  margin-top: 7px !important;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.mychild-myschedule h6 {
+  display: flex;
+  font-size: 12px
+}
+
+.mychild-myschedule h6 {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mychild-myschedule .myschedule-time {
+  display: flex;
+
+}
+.mychild-myschedule .myschedule-time p {
+  color: #8a8a8a;
+  font-size: 10px;
+  font-weight: 700;
+}
+.myschedule-icon a{
+  color: #8a8a8a;
+}
+.myschedule-time .dot {
+  margin: 0;
+}
+
+/* .myschedule-icon {
+  margin-left: 23px;
+} */
+.myschedule-heading a{
+  color: var(--new, #00AFEF);
+font-size: 13px;
+font-weight: 700;
+  text-decoration: none;
+}
+
+.myschedule-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.myschedule-time p {
+  margin: 0 !important;
+}
+
+.myschedule-mother {
+  display: flex;
+  font-size: 10px;
+  gap: 6px;
+}
+

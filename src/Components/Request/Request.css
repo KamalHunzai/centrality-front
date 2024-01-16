@@ -1,0 +1,235 @@
+.Request-Min{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Request {
+    width: 95%;
+    padding: 6px 50px;
+    background-color: #fff;
+}
+.Request-Min .MakeRequest {
+    width: 95%;
+    margin: 10px 0px;
+}
+
+.Request-Min .MakeRequest h2 {
+    color: var(--Neutral-Black-Black-500, #1D1F2C);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Request-Min .MakeRequest .ClassRoom {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Request-Min .MakeRequest .ClassRoom p {
+    color: var(--new, #00AFEF);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Request-Min .MakeRequest .ClassRoom .span {
+    color: var(--Neutral-Gray-Gray-500, #667085);
+}
+
+.Request-Min .MakeRequest .ClassRoom span {
+    color: rgba(194, 198, 206, 1);
+}
+
+.Request .backBtton {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Request .backBtton span {
+    color: #3C3C3C;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Request .backBtton h3 {
+    color: #3C3C3C;
+    font-size: 32px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.Request .profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.Request .profile .img {
+    display: flex;
+    align-items: center;
+}
+
+.Request .profile .img img {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+}
+
+.Request .profile .img .info h4 {
+    color: #3C3C3C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Request .profile .img .info p {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Request .profile .imgInFo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.Request .profile .imgInFo h5 {
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Request .profile .imgInFo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    width: 100%;
+    margin-top: 100px;
+}
+
+form .inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .inputs .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 29px;
+    width: 30%;
+}
+
+form .inputs .input label {
+    color: var(--Gray-900, #1D2026);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+form .inputs .input input {
+    outline: none;
+    width: 100%;
+    display: flex;
+    padding: 13px;
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid var(--Gray-100, #E9EAF0);
+    background: transparent;
+}
+
+form .Details {
+    display: flex;
+    flex-direction: column;
+}
+
+form .Details label {
+    margin-bottom: 6px;
+    color: var(--Gray-900, #1D2026);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form .Details textarea {
+    width: 67%;
+    border: 1px solid var(--Gray-100, #E9EAF0);
+    outline: none;
+    color: var(--Gray-500, #8C94A3);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    height: 150px;
+    resize: none;
+}
+.understand h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(67, 67, 67, 1);
+    margin-top: 20px;
+}
+.understand ul {
+    margin-top: 16px;
+}
+.understand ul li{
+    list-style: number;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(29, 32, 38, 1);
+    line-height: 22px;
+    
+}
+.Request .inputs input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(67, 67, 67, 0.3);
+    background-color: transparent;
+    width: 175px;
+    margin-right: 40px;
+    margin-top: 15px;
+    outline: none;
+}
+.inputs .label label{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(110, 116, 133, 1);
+    margin-top: 4px;
+}
+.inputs .label{
+    display: flex;
+    justify-content: space-between;
+}
+.btnS .BtnsCancel{
+    width: 95px;
+    height: 42px;
+    color: rgba(0, 175, 239, 1);
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 175, 239, 0.2);
+    margin-right: 26px;
+}
+.btnS .BtnsSend{
+    color: rgba(253, 253, 245, 1);
+    height: 42px;
+    width: 170px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0, 175, 239, 1);
+    border-radius: 5px;
+    border: none;
+}

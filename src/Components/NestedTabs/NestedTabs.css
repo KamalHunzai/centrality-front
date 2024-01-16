@@ -1,0 +1,229 @@
+.nav-tabs{
+    border: none !important;
+    display: flex;
+    justify-content: end;
+    padding: 22px 25px;
+    gap: 3px !important;
+}
+.tab-content .fade{
+    background-color: transparent !important;
+}
+.whereAreYou {
+    display: flex;
+    align-items: center;
+    margin: 22px 25px 1px 14px;
+    background-color: #fff; 
+}
+.whereAreYou .homee{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.whereAreYou .homee h2{
+    font-weight: 600;
+    font-size: 14px;
+    color: #00afef;
+    margin-bottom: 0px;
+}
+.whereAreYou .homee span{
+    font-size: 8px;
+    color: #00afef;
+}
+.whereAreYou .homee .gray svg{
+    color: #667085;
+}
+.whereAreYou .homee p{
+    color: #667085;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 0%;
+}
+.nav-item{
+    border-radius: 9px;
+    background-color: rgba(0, 175, 239, 0.2);
+    color: #00afef;
+    border: none !important;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover{
+    color: #fff;
+    border-radius: 9px;
+    background-color: #00afef !important;
+}
+/* .nav-tabs .nav-item.show .nav-link{
+    width: 1500px !important;
+} */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active{
+    color: #fff !important;
+    background-color: #00afef !important;
+    border-color: none !important;
+    border-radius: 9px;
+}
+/* .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover{
+} */
+.nav-tabs .nav-link{
+    width: 146px !important;
+    text-align: center;
+}
+
+.Nested-Dflex{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 4px;
+}
+.Chart{
+    width: 100% !important;
+    height: 400px !important;
+    overflow: none;
+
+}
+.selecting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.selecting .h5 {
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 700;
+}
+.select .h5 svg{
+    color: rgba(148, 163, 184, 1);
+    font-size: 12px;
+}
+.mainChart{
+    padding: 20px 20px 35px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 4px;
+}
+.mainChart select{
+    width: 105px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F8;
+    color: #64748B;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+.mainChart select option{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    border: 1px solid #E2E8F8;
+    color: #647488;
+    font-size: 12px;
+    font-weight: 600;
+    outline: none;
+}
+.backGroundColor{
+    background-color: transparent !important;
+}
+.nestedTabs {
+    padding: 20px;
+    padding-left: 10px !important;
+}
+.nav-tabs .nav-item .nav-links{
+   width: 150px !important;
+}
+.main-Links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-Links .mainLinks{
+width: 97%;
+background-color: #fff;
+/* padding-left: 20PX; */
+}
+.main-Links .navLinksMain{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-Links .navLinksMain .mainLinksItems{
+    display: flex;
+    gap: 10px;
+}
+.TestContent{
+    background-color: #fff;
+    margin: 20px;
+    padding: 0px 0px 0px 20px;
+}
+.Test{
+    display: flex;
+    gap: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h4{
+    color: #3C3C3C;
+font-size: 18.542px;
+font-weight: 600;
+margin-left: 14px;
+}
+@media (max-width:1326px) {
+    .nav-link {
+        width: 130px !important;
+        font-size: 13px !important;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width:1005px) {
+    .nav-tabs .nav-link {
+        width: 110px !important;
+        font-size: 10px !important;
+    }
+    .Summary{
+        margin: 0% !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:801px) {
+    .Summary .ClassTiming .Teacher table tr {
+    display: flex;
+    gap: 0px !important;
+}
+}
+
+@media (max-width:461px) {
+    .Summary .ClassTiming .Teacher table tr th {
+        font-size: 10px !important;
+    }
+    .Summary .ClassTiming .Teacher td {
+        font-size: 9px !important;
+    }
+    .Summary .Chemistry .liveBtn {
+        font-size: 11px !important;
+        padding: 10px 20px !important;
+    }
+    .mainChart select {
+        width: 90px !important;
+        height: 25px !important;
+        font-size: 10px !important;
+    }
+    .selecting .h5 {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+}

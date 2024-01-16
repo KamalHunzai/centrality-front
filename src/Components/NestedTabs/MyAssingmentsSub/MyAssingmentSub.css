@@ -1,0 +1,192 @@
+.myassingment-main{
+    width: 100%;
+    height: 472px;
+    margin-top: 10px;
+    padding: 10px !important;
+    background-color: #fff;
+}
+
+.myassingment-child-1{
+    width: 100%;
+    height: 19px;
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.myassingment-radio-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+}
+
+.myassingment-radio-btn span{
+    width: 6px;
+    height: 6px;
+    background-color: #797979;
+    border-radius: 50%;
+}
+.myassingment-radio-btn p{
+    margin-bottom: 0;
+    color: #616161;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.myassingment-child-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.myassingment-card{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(249,51,51,0.11);
+    border: 1px solid #f93333;
+    padding: 20px;
+}
+
+.myassingment-card-child-1{
+    width: 30%;
+}
+
+.myassingment-card-child-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+}
+
+.description h5{
+    color: #f93333;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.description p{
+    color: #4e5566;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.dov h4{
+    color: #f93333;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.dov button{
+    color: #f93333;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid #f93333;
+    height: 34px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+.myassingment-child{
+    width: auto;
+    display: flex !important;
+    height: 100px;
+    align-items: center !important;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.myassingment-child-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.myassingment-child-data .date{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f93333;
+    margin-right: 10px;
+}
+.mychild-myassingment{
+    align-items: center;
+}
+.mychild-myassingment h6{
+    display: flex;
+    font-size: 12px;
+}
+.mychild-myassingment h6{
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mychild-myassingment .myassingment-time{
+    display: flex;
+}
+
+.mychild-myassingment .myassingment-time p{
+    color: #8a8a8a;
+    font-size: 10px;
+    font-weight: 700;
+}
+.myassingment-icon{
+    margin-left: 30px;
+}
+.myassingment-time{
+    display: flex;
+    flex-direction: column;
+}
+
+.myassingment-time p{
+    margin: 0;
+}
+
+.myassingment-mother{
+    display: flex;
+    font-size: 10px;
+    gap: 6px;
+}
+
+.myassingment-time .last-text{
+    font-size: 5px;
+    color: red;
+}
+
+.myassingment-mother span{
+    color: red;
+    font-size: 11px;
+}
+
+/* ex */
+.myassingment-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+

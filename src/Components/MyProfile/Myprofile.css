@@ -1,0 +1,632 @@
+.Myprofile-main {
+    width: 100%;
+    height: auto;
+}
+
+.Myprofile-main h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20.029px;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+
+.Myprofile-main-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+/* card 1 */
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-child-1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-child-2 {
+    display: flex;
+
+    flex-direction: column;
+    gap: 10.52px;
+}
+
+.profile-child-2 h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16.691px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.profile-child-2-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-child-2-2 p {
+    color: #8A8A8A;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.profile-child-2-2 button span {
+    font-size: 12.684px;
+    display: flex;
+    color: #2E8760;
+    font-weight: 400;
+
+}
+
+.profile-child-2-2 button {
+    width: 61.757px;
+    height: 18.36px;
+    display: flex;
+    color: #2E8760;
+    font-family: Inter;
+    font-size: 11.684px;
+    font-weight: 400;
+    padding: 2px;
+    flex-shrink: 0;
+    border-radius: 4.173px;
+    background: #E3FFF3;
+    border: none;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.profile-child-2-3 p {
+    color: #2E8760;
+    font-family: Inter;
+    font-size: 11.684px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.Myprofile-main-child-2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.Myprofile-main-child-2-1 h3 {
+    color: #8A8A8A;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+/* card 2 */
+
+.Myprofile-main-child-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.Myprofile-main-child-2 img {
+    width: 22px;
+    height: 22px;
+}
+
+.Myprofile-main-child-2-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-1 img {
+    width: 22px;
+    height: 22px;
+}
+
+.div-1 h3 {
+    color: #8A8A8A;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.div-1 span {
+    color: #CC1313;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.div-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-2 img {
+    width: 22px;
+    height: 22px;
+}
+
+.div-2 h3 {
+    color: #8A8A8A;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.div-2 span {
+    color: #2E8760;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+/* card 3 */
+
+
+.Myprofile-main-child-3 {
+    width: 306.283px;
+    height: 119.342px;
+    flex-shrink: 0;
+    border-radius: 4.173px;
+    background: rgba(0, 175, 239, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Myprofile-main-child-3-card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Myprofile-main-child-3-card-1 img {
+    width: 48.215px;
+    height: 32.852px;
+}
+
+.Myprofile-main-child-3-card-2 h3 {
+    color: #3C3C3C;
+    font-family: Inter;
+    font-size: 20.029px;
+    font-weight: 600;
+}
+
+.Myprofile-main-child-3-card-2 h1 {
+    color: var(--new, #00AFEF);
+    font-family: Inter;
+    font-size: 40.059px;
+    font-weight: 600;
+}
+
+/* main-2 */
+
+.line-hr {
+    width: 94%;
+    margin-left: 3.8% !important;
+    margin: 0px;
+}
+
+.line-hr-two {
+    width: 99%;
+    margin-left: 1.2% !important;
+    margin: 0px;
+    color: #000;
+    opacity: .2;
+}
+
+.Myprofile-main-2 {
+    padding: 0px 30px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.edit-icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.edit-icon svg {
+    color: #000;
+    opacity: .5;
+}
+
+.Personal-Details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.Personal-Details-child-1 {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.Personal-Details h2 {
+    color: var(--new, #00AFEF);
+    font-family: Inter;
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.Personal-Details h1 {
+    color: var(--new, #00AFEF);
+    font-family: Inter;
+    font-size: 20.029px;
+    font-weight: 600;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.Personal-Details-child-1 h3 {
+    color: #434343;
+    font-family: Inter;
+    font-size: 16.353px;
+    font-weight: 600;
+}
+
+.Personal-Details-child-1 span {
+    color: #434343;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Personal-Details-child-2 h3,
+span {
+    color: #3C3C3C;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Personal-Details-child-2 h2 {
+    color: var(--new, #00AFEF);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Personal-Details-child-3 {
+    display: flex;
+    justify-content: start;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.Personal-Details-child-3 h1 {
+    color: var(--new, #00AFEF);
+    font-family: Inter;
+    font-size: 20.029px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.Personal-Details-child-3 h3 {
+    color: #434343;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 600;
+}
+
+.Personal-Details-child-3 span {
+    color: #434343;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+}
+
+.Personal-Details-child-4 {
+    display: flex;
+    justify-content: start;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.Personal-Details-child-4 h3 {
+    color: #434343;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 600;
+}
+
+.Personal-Details-child-4 span {
+    color: #434343;
+    font-family: Inter;
+    font-size: 13.353px;
+    font-weight: 400;
+}
+
+.TwoTabs-Main .profileTabs .nav-link {
+    color: #9A9A9A !important;
+}
+
+.TwoTabs-Main .profileTabs .nav-link.active {
+    color: #00AFEF !important;
+    border-bottom: 1px solid #00AFEF !important;
+    border-radius: 0% !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.TwoTabs-Main .profileTabs {
+    width: 97% !important;
+    margin-left: 30px;
+}
+
+.profileTabs.nav-tabs {
+    display: flex;
+    justify-content: start !important;
+    gap: 10px;
+    border-bottom: 1px solid #9A9A9A !important;
+    padding-bottom: 0px !important;
+}
+
+.profileTabs .nav-item {
+    background-color: transparent;
+}
+
+.TwoTabs-Main .profileTabs .nav-link:hover {
+    background-color: transparent !important;
+    color: #00AFEF !important;
+    border-radius: 0 !important;
+
+}
+
+.TwoTabs-Main .profileTabs .nav-link.active {
+    color: #00AFEF !important;
+    background-color: transparent !important;
+}
+
+@media (max-width:1160px) {
+    .profile-child-2 h2 {
+        font-size: 14px;
+    }
+
+    .profile-child-1 img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .profile-child-2-2 p {
+        font-size: 10px;
+    }
+
+    .profile-child-2-2 button {
+        width: 50px;
+        height: 15px;
+        font-size: 10px;
+
+    }
+
+    .profile-child-2-3 p {
+        font-size: 10px;
+    }
+
+    .profile-child-2-2 p {
+        font-size: 10px;
+    }
+
+    .Myprofile-main-child-2 img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .Myprofile-main-child-2-1 h3 {
+        font-size: 10px;
+    }
+
+    .div-1 h3 {
+        font-size: 10px;
+    }
+
+    .div-1 span {
+        font-size: 10px;
+    }
+
+    .div-2 h3 {
+        font-size: 10px;
+    }
+
+    .div-2 span {
+        font-size: 10px;
+    }
+
+    .Myprofile-main-child-3 {
+        width: 260px;
+        height: 85px;
+    }
+
+    .Myprofile-main-child-3-card-2 h3 {
+        font-size: 16px;
+    }
+
+    .Myprofile-main-child-3-card-2 h1 {
+        font-size: 20px;
+    }
+
+    .Myprofile-main-child-3-card-1 img {
+        width: 32px;
+        height: 20px;
+    }
+
+    .Personal-Details h1 {
+        font-size: 18px;
+    }
+
+    .Personal-Details-child-1 h3 {
+        font-size: 14px;
+    }
+    .Personal-Details-child-1 span {
+        font-size: 13px;
+    }
+    .Personal-Details h2 {
+        font-size: 18px;
+    }
+    .Personal-Details h1 {
+        font-size: 18px;
+    }
+    .Personal-Details-child-2 h3, span {
+        font-size: 14px;
+    }
+    .Personal-Details-child-2 h3, span {
+        font-size: 14px;
+    }
+    .Personal-Details-child-2 h2 {
+        font-size: 18px;
+    }
+    .Personal-Details-child-2 h3, span {
+        font-size: 14px;
+    }
+    .Personal-Details-child-3 h1 {
+        font-size: 18px;
+    }
+    .Personal-Details-child-1 {
+        padding: 0px;
+    }
+}
+
+@media (max-width:1020px) {
+    .profile-child-2 h2 {
+        font-size: 11px;
+    }
+
+    .profile-child-1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile-child-2-2 p {
+        font-size: 8px;
+    }
+
+    .profile-child-2-2 button {
+        width: 45px;
+        height: 13px;
+        font-size: 8px;
+
+    }
+
+    .profile-child-2-3 p {
+        font-size: 8px !important;
+    }
+
+    .profile-child-2-2 p {
+        font-size: 8px;
+    }
+
+    .Myprofile-main-child-2 img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Myprofile-main-child-2-1 h3 {
+        font-size: 8px;
+    }
+
+    .div-1 h3 {
+        font-size: 8px;
+    }
+
+    .div-1 span {
+        font-size: 8px;
+    }
+
+    .div-2 h3 {
+        font-size: 8px;
+    }
+
+    .div-2 span {
+        font-size: 8px;
+    }
+
+    .Myprofile-main-child-3 {
+        width: auto;
+        height: 75px;
+        gap: 50px;
+        padding: 5px;
+    }
+
+    .Myprofile-main-child-3-card-2 h3 {
+        font-size: 14px;
+    }
+
+    .Myprofile-main-child-3-card-2 h1 {
+        font-size: 15px;
+    }
+
+    .Myprofile-main-child-3-card-1 img {
+        width: 30px;
+        height: 19px;
+    }
+
+    .profile {
+        gap: 15px;
+    }
+
+    .profile-child-2 {
+        gap: 8px;
+    }
+
+    .Personal-Details {
+        display: flex;
+        justify-content: start;
+        padding: 10px;
+        align-items: start;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:638px) {
+    .Myprofile-main-1 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:529px) {
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+}

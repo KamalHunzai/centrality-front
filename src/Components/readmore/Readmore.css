@@ -1,0 +1,95 @@
+.Readmore-main{
+    display: flex;
+    gap: 54px;
+    padding: 55px 57px;
+}
+
+.Readmore-main-child-1{
+    width: 30%;
+    height: auto;
+}
+
+.Readmore-main-child-1 h1{
+    color: var(--new, #00AFEF);
+    font-size: 19.2px;
+    font-weight: 700;
+}
+.Readmore-main-child-1 p{
+color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px; 
+}
+.Readmore-main-child-1 h3{
+color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: 25.6px;
+}
+
+.Readmore-main-child-2 {
+    width: 60%;
+    height: auto;
+}
+
+.Readmore-main-child-2 h1{
+    color: var(--new, #00AFEF);
+    font-size: 20.8px;
+    font-weight: 700;
+}
+.Readmore-main-child-2 p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px
+}
+.Readmore-inner h4{
+color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+}
+
+@media (max-width:1048px) {
+    .Readmore-main-child-1 h1 {
+        font-size: 17px !important;
+    }
+    .Readmore-main-child-1 p {
+        font-size: 14px !important;
+    }
+    .Readmore-main-child-1 h3 {
+        font-size: 15px !important;
+        font-weight: 700;
+    }
+    .Readmore-main-child-2 h1 {
+        font-size: 17px !important;
+    }
+    .Readmore-main-child-2 p {
+        font-size: 14px !important;
+    }
+    .Readmore-inner h4 {
+        font-size: 14px !important;
+    }
+    .Readmore-main-child-2 p {
+        font-size: 14px !important;      
+    }
+    .Readmore-main-child-2 h1 {
+        font-size: 17px !important;
+    }
+}
+@media (max-width:936px) {
+    .Readmore-main-child-2 {
+        width: 100%;
+        height: auto;
+    }
+    .Readmore-main-child-1{
+        width: 100%;
+        height: auto;
+    }
+    .Readmore-main{
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,36 @@
+.Welcome-main{
+    height: 178px;
+    width: 100%;
+    background-color: #00AFEF;
+    display: flex;
+    align-items:center;
+}
+.Welcome-main h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 22px;
+}
+.Welcome-main h1 img{
+    height: 38px;
+    width: 45px;
+}
+.Welcome-main .Welcome-div1{
+    width: 65%;
+    padding: 10px 0px 0px 14px;
+}
+.Welcome-main .Welcome-div1 p{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+.Welcome-main .Welcome-div2{
+    width: 35%;
+}
+.Welcome-main .Welcome-div2 img{
+    height:174px;
+    width: 100%;
+}

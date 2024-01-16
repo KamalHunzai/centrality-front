@@ -1,0 +1,904 @@
+.Assingment-main {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+}
+.BackArrowTop {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.BackArrowTop h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: rgba(60, 60, 60, 1);
+}
+.BackArrowTop svg{
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.ProfileName {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+.ProfileName img {
+  height: 80px;
+  width: 73.04px;
+}
+.ToomanyBtns span h4 {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(60, 60, 60, 1);
+}
+.ToomanyBtns span h5 {
+  font-size: 600;
+  font-size: 16px;
+  color: rgba(60, 60, 60, 1);
+}
+.ToomanyBtns {
+  display: flex;
+  justify-content: space-between;
+}
+.ToomanyBtns-main {
+  display: flex;
+  flex-direction: column;
+}
+.LinesFOurBtns {
+  margin-top: 20px;
+}
+
+.ToomanyBtns-main .same {
+  color: rgba(0, 175, 239, 1);
+  font-weight: 400;
+  background-color: rgba(0, 175, 239, 0.2);
+  border-radius: 5px;
+  height: 42px;
+  border: none;
+  font-size: 16px;
+}
+.ToomanyBtns-one {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  width: 442px;
+  align-self: flex-end;
+}
+.FillDown {
+  height: 42px;
+  width: 131px;
+  color: white;
+  font-weight: 400;
+  background-color: rgba(0, 175, 239, 1);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.ToomanyBtns-main div button {
+  margin: 10px;
+}
+.ToomanyBtns-main .SHARE {
+  width: 83px;
+}
+.ToomanyBtns-main .EXPORT {
+  width: 175px;
+}
+.ToomanyBtns-main .EXPORT svg {
+  margin-right: 11px;
+  height: 20.97px;
+  width: 20.97px;
+}
+.ToomanyBtns-main .Parent {
+  width: 190px;
+}
+.Assingment-main h6 {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(0, 175, 239, 1);
+}
+.BSGIS-SECtion {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BSGIS-SECtion .STATUS {
+  width: 140px;
+  height: 33px;
+  background-color: rgba(255, 239, 239, 1);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(249, 51, 51, 1);
+  border-radius: 5px;
+  border: none;
+}
+.BSGIS-SECtion .BATCHCO {
+  width: 152px;
+  height: 33px;
+  border: 1px solid rgba(211, 211, 211, 1);
+  border-radius: 5px;
+  margin-left: 33px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(152, 152, 152, 1);
+}
+.BSGIS-SECtion .ACtiveCLock {
+  border: none;
+  background-color: white;
+  margin-left: 33px;
+  color: rgba(152, 152, 152, 1);
+}
+.BSGIS-SECtion .ACtiveCLock svg {
+  color: rgba(0, 175, 239, 1);
+  height: 19px;
+  width: 19px;
+  margin-right: 6px;
+}
+.BSGIS-SECtion .ActiveCalndr {
+  border: none;
+  background-color: white;
+  margin-left: 33px;
+  color: rgba(152, 152, 152, 1);
+}
+.BSGIS-SECtion .ActiveCalndr svg {
+  color: rgba(0, 175, 239, 1);
+  height: 19px;
+  width: 19px;
+  margin-right: 6px;
+}
+.BSGIS-SECtion h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+.PARAGRAPG {
+  padding-top: 17px !important;
+}
+.BSGIS-SECtion-child1 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(67, 67, 67, 1);
+  margin-top: 16px !important;
+}
+.BSGIS-SECtion-child1 .PARAGRAPGSPan {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(67, 67, 67, 1);
+}
+.BSGIS-SECtion-child1 hr {
+  color: rgba(218, 216, 216, 1);
+}
+.BSGIS-SECtion-child2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.BSGIS-SECtion-child2 img {
+  width: 114px;
+  height: 64px;
+}
+.BSGIS-SECtion-child2 button {
+  height: 40px;
+  width: 123px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(0, 175, 239, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 400;
+}
+.TotalMarks-Main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TotalMarks-Main h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(67, 67, 67, 1);
+  margin-top: 19px;
+}
+.TotalMarks-Main h4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(67, 67, 67, 1);
+}
+.TotalMarks-Main .Req_moQuest { 
+  height: 42px !important;
+  width: 214px !important;
+  background-color: rgba(0, 175, 239, 1);
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Req_moQuest a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FDFDF5 !important;
+  text-decoration: none;
+ 
+}
+
+.progress-label {
+  color: rgba(249, 51, 51, 1);
+  font-weight: 700;
+  font-size: 16px;
+}
+.progress {
+  height: 8px !important;
+  background-color: rgba(249, 51, 51, 0.322) !important;
+}
+
+.progress-container {
+  width: 100%;
+  position: relative;
+}
+
+.progress-label2 {
+  position: absolute;
+  right: -30px;
+  top: 15px;
+  color: #222;
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.QuizPaper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.QuizPaper .Paper {
+  display: flex;
+  flex-direction: column;
+}
+.QuizPaper .Paper p {
+  color: #434343;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 11px 0px !important;
+}
+.QuizPaper .Paper .para {
+  margin-top: 0px !important;
+}
+.QuizPaper .Paper button {
+  color: var(--new, #00afef);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 35px 8px 8px;
+  border-radius: 5px;
+  border: 1px solid var(--new-1, rgba(0, 175, 239, 0.2));
+  background-color: transparent;
+}
+.QuizPaper .Paper h3 {
+  color: #434343;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 13px 0px;
+  margin-bottom: 0px !important;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+.notification .cards .card1 {
+    padding: 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--new, #00afef);
+  background: #fff;
+  box-shadow: 0px 34px 60px 2px rgba(154, 154, 154, 0.2);
+  width: 371px;
+}
+.QuizPaper .notification .cards .card2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+  border-radius: 8px;
+  background: var(--new, #00afef);
+  box-shadow: 0px 24px 50px 4px rgba(100, 116, 139, 0.33);
+}
+.QuizPaper .notification .cards .card2 .imginfo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.QuizPaper .notification .cards .card2 span {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+}
+.QuizPaper .notification .cards .card1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.QuizPaper .notification .cards .card1 h4 {
+  color: #222;
+  margin: 0%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.QuizPaper .notification .cards .card1 p {
+  color: #858585;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.QuizPaper .notification .cards .card2 h4 {
+  color: #fff;
+}
+.QuizPaper .notification .cards .card2 p {
+  color: #fff;
+}
+.QuizPaper .notification .cards .card2 .lineImage{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    top: 0;
+    right: 0;
+}
+@media (max-width:1284px) {
+  .ToomanyBtns-one {
+    gap: 16px;
+    width: 422px;
+    font-size: 15px !important;
+}
+.ToomanyBtns-main .SHARE {
+  width: 70px;
+  font-size: 15px;
+}
+.ToomanyBtns-main .EXPORT {
+  width: 160px;
+  font-size: 15px;
+}
+.ToomanyBtns-main .Parent {
+  width: 170px;
+  font-size: 15px;
+}
+.FillDown {
+  height: 42px;
+  width: 118px;
+  padding: 0px !important;
+  font-size: 15px;
+}
+.btn-primary {
+  width: 170px;
+}
+.ProfileName {
+  gap: 32px;
+}
+.BSGIS-SECtion-child2 button {
+  width: 110px;
+  font-size: 16px;
+}
+.TotalMarks-Main .Req_moQuest {
+  width: 180px !important;
+}
+.Req_moQuest a{
+  font-size: 14px !important;
+}
+.notification .cards .card1 {
+  padding: 15px;
+  gap: 8px;
+  width: 351px;
+}
+.QuizPaper .notification .cards .card1 h4 {
+  font-size: 15px;
+}
+.QuizPaper .notification .cards .card1 p {
+  font-size: 14px;
+}
+}
+@media (max-width:1212px) {
+  .BSGIS-SECtion .ActiveCalndr {
+    margin-left: 20px;
+}
+.BSGIS-SECtion .BATCHCO {
+  margin-left: 20px;
+}
+.BSGIS-SECtion .ACtiveCLock {
+  margin-left: 20px;
+}
+.Assingment-main h6 {
+  font-size: 20px;
+}
+.BSGIS-SECtion-child1 .PARAGRAPGSPan {
+  font-size: 18px;
+}
+.ProfileName {
+  gap: 25px;
+}
+.ToomanyBtns-main div button {
+  margin: 5px;
+}
+.LinesFOurBtns {
+  margin-top: 10px;
+}
+.btn-primary {
+  width: 187px;
+  margin-top: 10px !important;
+}
+.ToomanyBtns {
+  margin-top: 20px;
+}
+}
+@media (max-width:1154px) {
+  .ToomanyBtns-one {
+    gap: 12px;
+    width: 400px !important;
+    font-size: 14px !important;
+}
+.BackArrowTop h2 {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+.btn-primary {
+  width: 170px;
+  font-size: 14px !important;
+}
+.FillDown {
+  width: 105px;
+  font-size: 14px;
+}.ToomanyBtns-main .Parent {
+  width: 160px;
+  font-size: 14px;
+}
+.ToomanyBtns-main .EXPORT {
+  width: 140px;
+  font-size: 14px;
+}
+.BSGIS-SECtion .BATCHCO {
+  margin-left: 10px;
+}
+.BSGIS-SECtion .ActiveCalndr {
+  margin-left: 10px;
+}
+.BSGIS-SECtion .ACtiveCLock {
+  margin-left: 10px;
+}
+.Assingment-main {
+  padding: 16px;
+}
+.TotalMarks-Main .Req_moQuest {
+  width: 160px !important;
+}
+.Req_moQuest a {
+  font-size: 12px !important;
+}
+.BSGIS-SECtion-child2 button {
+  width: 100px;
+  font-size: 14px;
+}
+.BSGIS-SECtion-child1 p {
+  font-size: 18px;
+  margin-top: 13px !important;
+}
+.notification .cards .card1 {
+  padding: 16px;
+  width: 345px;
+  display: flex;
+  align-items: center;
+}
+.QuizPaper {
+  margin-top: 15px;
+}
+.QuizPaper .notification .cards .card1 h4 {
+  font-size: 13px;
+}
+.QuizPaper .notification .cards .card1 p {
+  font-size: 12px;
+}
+}
+@media (max-width:1120px) {
+  .BSGIS-SECtion .STATUS {
+    width: 130px;
+    font-size: 13px;
+}
+.BSGIS-SECtion .BATCHCO {
+  font-size: 13px;
+  width: 130px;
+}
+.BSGIS-SECtion {
+  margin-top: 20px;
+}
+.ToomanyBtns-one {
+  gap: 10px;
+  width: 350px !important;
+  font-size: 12px !important;
+}
+.ToomanyBtns-main .SHARE {
+  width: 55px;
+  font-size: 12px;
+}
+.ToomanyBtns-main .EXPORT {
+  width: 120px;
+  font-size: 12px;
+}
+.ToomanyBtns-main .Parent {
+  width: 140px;
+  font-size: 12px;
+}
+.FillDown {
+  width: 95px;
+  font-size: 12px;
+}
+.btn-primary {
+  width: 145px;
+  font-size: 12px !important;
+}
+.ProfileName {
+  gap: 18px;
+}
+.ProfileName img{
+  height: 60px;
+  width: 65px;
+}
+.ToomanyBtns span h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.ToomanyBtns span h5 {
+  font-size: 14px;
+}
+}
+@media (max-width:1078px) {
+  .BSGIS-SECtion h3 {
+    font-size: 16px;
+}
+.BSGIS-SECtion-child1 .PARAGRAPGSPan {
+  font-size: 15px;
+}
+.BSGIS-SECtion-child1 p {
+  font-size: 15px;
+  margin-top: 8px !important;
+}
+.Personal-Details-child-2 h3, span {
+  font-size: 15px;
+}
+.BackArrowTop h2 {
+  font-size: 22px;
+}
+.BackArrowTop {
+  gap: 24px;
+}
+.QuizPaper .Paper button {
+  font-size: 12px;
+  padding: 8px;
+}
+.QuizPaper .Paper h3 {
+  font-size: 20px;
+}
+.QuizPaper .Paper p {
+  font-size: 14px;
+}
+.notification .cards .card1 {
+  padding: 14px;
+  width: 330px;
+}
+.QuizPaper .notification .cards .card1 p {
+  font-size: 12px;
+}
+.BSGIS-SECtion .STATUS {
+  width: 110px;
+  font-size: 12px;
+}
+.BSGIS-SECtion .BATCHCO {
+  font-size: 12px;
+  width: 110px;
+}
+.Personal-Details-child-2 h3, span {
+  font-size: 12px;
+}
+.btn-primary {
+  width: 138px;
+  height: 35px;
+  font-size: 12px !important;
+}
+.ToomanyBtns-main .same {
+  font-weight: 400;
+  height: 35px;
+  font-size: 12px;
+}
+.TotalMarks-Main .Req_moQuest {
+  height: 35px !important;
+  width: 180px !important;
+}
+.BSGIS-SECtion-child2 button {
+  width: 90px;
+  font-size: 12px;
+  height: 35px
+}
+.FillDown {
+  width: 95px;
+  font-size: 12px;
+  height: 35px;
+}
+.ToomanyBtns-main div button {
+  margin: 2px;
+}
+.LinesFOurBtns {
+  margin-top: 5px;
+}
+.btn-primary {
+  width: 187px;
+  margin-top: none;
+}
+}
+@media (max-width:988px) {
+  .ToomanyBtns {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.LinesFOurBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+}
+@media (max-width:904px){
+  .notification .cards .card1 {
+    padding: 12px;
+    width: 300px;
+}
+.QuizPaper .notification .cards .card2 {
+  margin-top: 10px;
+}
+.BSGIS-SECtion h3 {
+  font-size: 12px;
+}
+.Assingment-main h6 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  text-align: center;
+}
+.BSGIS-SECtion {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ToomanyBtns-main {
+  margin-top: 20px;
+}
+.BSGIS-SECtion-child1 p {
+  margin-top: 0px !important;
+}
+.BSGIS-SECtion-child2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BSGIS-SECtion-child2 button {
+  width: 150px;
+  font-size: 14px;
+  height: 35px;
+}
+.BSGIS-SECtion h3 {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.BSGIS-SECtion {
+  margin-top: 10px;
+  display: flex;
+}
+.Assingment-main h6 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+} 
+@media (max-width:640px) {
+  .notification .cards .card1 {
+    padding: 12px;
+    width: 320px;
+    height: 90px;
+}
+.QuizPaper {
+  width: 100%;
+  margin-top: 10px;
+}
+.QuizPaper .notification .cards .card1 p {
+  font-size: 10px !important;
+}
+.QuizPaper .Paper button {
+  font-size: 10px;
+  font-weight: 400;
+  padding: 8px 25px 8px 8px;
+  width: 230px;
+}
+.QuizPaper .Paper h3 {
+  font-size: 20px;
+  margin: 13px 0px;
+}
+.QuizPaper .Paper p {
+  font-size: 13px;
+}
+.ProfileName {
+  margin-top: 10px;
+}
+}
+@media (max-width:632px) {
+  .QuizPaper {
+    display: flex;
+    flex-direction: column;
+}
+.QuizPaper .Paper button {
+  font-size: 10px;
+  font-weight: 400;
+  padding:  15px 35px ;
+  width: 100%;
+}
+.TotalMarks-Main {
+  display: flex;
+  flex-direction: column;
+}
+.TotalMarks-Main .Req_moQuest {
+  height: 35px !important;
+  width: 180px !important;
+  margin-top: 20px;
+}
+.notification .cards .card1 {
+  padding: 12px;
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+}
+.BSGIS-SECtion h3 {
+  font-size: 16px;
+}
+.QuizPaper .Paper p {
+  text-align: center;
+}
+.BSGIS-SECtion-child2 button {
+  width: 100%;
+}
+.QuizPaper .Paper h3 {
+  text-align: center;
+}
+}
+@media (max-width:504px) {
+  .Assingment-main h6 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+.BSGIS-SECtion .STATUS {
+  width: 90px;
+  font-size: 11px;
+}
+.BSGIS-SECtion .BATCHCO {
+  font-size: 10px;
+  width: 90px;
+}
+.Assingment-main {
+  padding: 14px;
+}
+}
+@media (max-width:457px) {
+  .Assingment-main h6 {
+    font-size: 16px;
+    margin-top: 18px;
+}
+.BSGIS-SECtion .STATUS {
+  width: 80px;
+  font-size: 10px;
+}
+.BSGIS-SECtion .BATCHCO {
+  font-size: 9px;
+  width: 80px;
+}
+}
+@media (max-width:425px) {
+  .LinesFOurBtns {
+    display: flex;
+    align-items: center;
+}
+.Assingment-main {
+  padding: 10px;
+}
+.ToomanyBtns-main .Parent {
+  width: 140px !important;
+  font-size: 14px;
+}
+.ToomanyBtns-main .EXPORT {
+  width: 110px;
+  font-size: 12px;
+}
+.ToomanyBtns-main .EXPORT svg {
+  margin-right: 5px !important;
+}
+.ToomanyBtns-main .Parent {
+  width: 120px !important;
+  font-size: 12px;
+}
+.FillDown {
+  width: 80px;
+  font-size: 12px;
+}
+.btn-primary {
+  width: 130px;
+  height: 35px;
+  font-size: 12px !important;
+}
+}
+@media (max-width:406px) {
+  .Assingment-main {
+    padding: 7px;
+}
+.BSGIS-SECtion .BATCHCO {
+  margin-left: 3px;
+}
+.BSGIS-SECtion .ACtiveCLock {
+  margin-left: 3px;
+}
+.BSGIS-SECtion .ActiveCalndr {
+  margin-left: 3px;
+}
+}
+@media (max-width:400px) {
+  .Assingment-main h6 {
+    font-size: 13px;
+    margin-top: 14px;
+}
+.ToomanyBtns-one {
+  gap: 16px;
+  width: 100% !important;
+  font-size: 12px !important;
+}
+}
+@media (max-width:380px) {
+  .ToomanyBtns-main .EXPORT {
+    width: 90px;
+    font-size: 10px;
+}
+.ToomanyBtns-main .EXPORT svg{
+  width: 12px;
+  height: 12px;
+}
+.ToomanyBtns-main .Parent {
+  width: 100px !important;
+  font-size: 10px;
+}
+.FillDown {
+  width: 70px;
+  font-size: 11px;
+}
+.Assingment-main {
+  padding: 10px;
+  margin: 5px;
+}
+}
+@media (max-width:356px) {
+  .BSGIS-SECtion .STATUS {
+    width: 60px;
+    font-size: 8px;
+}
+.BSGIS-SECtion .BATCHCO {
+  font-size: 7px;
+  width: 60px;
+}
+}
+@media (max-width:346px) {
+  .ToomanyBtns-one {
+    gap: 8px;
+    width: 100% !important;
+    font-size: 10px !important;
+}
+.btn-primary {
+  width: 120px;
+  font-size: 10px !important;
+}
+.BSGIS-SECtion-child1 .PARAGRAPGSPan {
+  font-size: 9px !important;
+  font-weight: 600;
+}
+}
